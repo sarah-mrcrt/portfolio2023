@@ -1,0 +1,208 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+main#home {
+    section#accueil {
+        margin-left: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: $container-md;
+
+        article {
+            h3 {
+                margin-bottom: 2rem;
+                text-transform: uppercase;
+            }
+
+            ul {
+                font-size: calc(1rem + 1.4vw);
+
+                li {
+                    margin: 2% 0;
+                }
+            }
+        }
+
+        div {
+            align-self: end;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+    section#about {
+        max-height: 100vh;
+        border-top: $border;
+        border-left: $border;
+        border-bottom: $border;
+        width: $container-md;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            background-color: $white;
+            margin-left: -3%;
+            margin-top: 2.5%;
+            padding: 1rem 0;
+        }
+
+        article {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 0 4% 4%;
+            width: 80%;
+
+            h3 {
+                font-weight: $font-weight-semibold;
+                font-size: 3rem;
+            }
+
+            p {
+                margin-top: 4%;
+                font-size: 2.5vw;
+                // line-height: 2.5rem;
+            }
+
+            .btn {
+                align-self: end;
+            }
+        }
+    }
+
+    section#services {
+        position: relative;
+
+        h2 {
+            width: 32%;
+            // text-align: center;
+            margin-top: -2px;
+            padding-left: $espace-titre;
+        }
+
+        h2,
+        .btn {
+            border: $border;
+            // background-color: $white;    
+        }
+
+        article {
+            background-color: $black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            // margin-left: auto;
+            width: 90%;
+
+            p {
+                padding: 5% 0;
+                width: 71%;
+                color: $white;
+            }
+
+            .btn {
+
+
+                align-self: end;
+
+                padding: 2rem;
+
+                background-color: $white;
+                position: absolute;
+                bottom: -27%;
+            }
+        }
+    }
+
+    section#projets {
+        width: 90%;
+        margin-bottom: 10%;
+        @extend .centered;
+
+        h2 {
+            border-right: $border;
+            width: 88%;
+            padding-top: 5%
+        }
+
+        article {
+            @extend .centered;
+
+            &:first-child {
+                padding: 5% 7%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .btn {
+                    margin-left: 5rem;
+                }
+            }
+
+            &:nth-child(2n) {
+                display: flex;
+                justify-content: space-between;
+
+                &:hover {
+                    a {
+                        width: 25%;
+                    }
+
+                    // Cacher les figcaptions des siblings
+                    figcaption {
+                        display: none;
+                    }
+                }
+
+                a {
+                    transition: $transition;
+                    width: 33.33%;
+
+                    figure {
+                        position: relative;
+                        height: fit-content;
+                        height: 307px;
+
+                        img {
+                            object-fit: cover;
+                        }
+
+                        figcaption {
+                            position: absolute;
+                            bottom: 0;
+                            mix-blend-mode: difference;
+                            color: $white;
+                            @extend .h2;
+                            font-weight: $font-weight-bold;
+                            margin-left: 1rem;
+                        }
+                    }
+
+                    &:hover {
+                        transition: all .5s ease-in-out;
+                        mix-blend-mode: difference;
+                        width: 50%;
+                        height: 307px;
+
+                        figcaption {
+                            // Faire apparaitre le figcaption de l'élément hover
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+        div {
+            border: $border;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+	// Marges
+	margin-top: -0.5em;
+	// Fonts
+	font-weight: $font-weight-bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: $black;
+	// Hover
+	transition: $transition;
+
+	&:after {
+		// Pseudo element
+		content: "";
+		// En dessous btn + Centré
+		display: block;
+		margin: auto;
+		// Image
+		background-image: url(../../ressources/images/fleche.svg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		// Zone de l'image
+		height: 4rem;
+		width: 4rem;
+		// Couleur 
+		-webkit-filter: $black-svg;
+		filter: $black-svg;
+	}
+
+	&:hover {
+		// Font color
+		color: $grey;
+		// Hover
+		transition: $transition;
+
+		&:after {
+			// Image color
+			filter: $grey-svg;
+		}
+	}
+}

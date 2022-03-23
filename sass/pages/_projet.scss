@@ -1,0 +1,84 @@
+main#projet {
+    article {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div3 {
+        grid-area: 1 / 2 / 2 / 4;
+    }
+
+    .div4 {
+        grid-area: 1 / 4 / 3 / 6;
+    }
+
+    nav#pagination {
+        // Taille
+        height: 10rem;
+        // Hover
+        position: relative;
+        // Flex
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: red;
+
+        figure {
+            color: blue;
+            position: relative;
+            padding: 4rem 4rem;
+
+            img {
+                // Taille
+                width: 20rem;
+                // Positionnement
+                position: absolute;
+                z-index: 1;
+                // Centrer l'image
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                // Hover    
+                opacity: 0;
+                mix-blend-mode: difference;
+            }
+
+            &:hover {
+                // Image rotation
+                transform: rotate(-15deg);
+                // Mode de fusion
+                mix-blend-mode: difference;
+                color: $white;
+
+                figcaption {
+                    transform: rotate(15deg);
+                }
+
+                img {
+                    opacity: 1;
+
+                }
+            }
+
+            &:hover:nth-child(2n) {
+                // Image rotation
+                transform: rotate(15deg);
+
+                figcaption {
+                    transform: rotate(-15deg);
+                }
+            }
+        }
+    }
+}

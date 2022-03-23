@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// Footer
+// -----------------------------------------------------------------------------
+
+footer#contact {
+    height: 100vh;
+    background: $black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10%;
+    // Cacher éléments du main derrière le footer
+    position: absolute;
+    z-index: 9;
+
+    p:first-child {
+        font-size: 6.5vw;
+        text-transform: uppercase;
+        padding: 10% 0;
+        color: $white;
+
+    }
+
+    div {
+        hr {
+            margin: 2% 0;
+            height: 0.1px;
+            background-color: $grey;
+            border: none;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2%;
+
+            ul {
+                display: flex;
+                text-transform: uppercase;
+
+                a {
+                    @include links($white, $grey);
+                    margin-right: 1rem;
+                }
+            }
+
+            p {
+                font-size: .7rem;
+                color: $grey;
+            }
+        }
+    }
+}

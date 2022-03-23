@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// Sélecteurs centralisés et réutilisables
+// -----------------------------------------------------------------------------
+
+.text-border {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+    mix-blend-mode: difference;
+
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}

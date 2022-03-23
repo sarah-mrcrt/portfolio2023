@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// Typography : Règles
+// -----------------------------------------------------------------------------
+
+// VARIABLES
+// FAMILY
+$MyFont-stack: 'Titillium Web',
+sans-serif;
+$font-family-sans-serif: 'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif !default;
+$font-family-serif : Georgia,
+'Times New Roman',
+Times,
+serif !default;
+$font-family-monospace : Menlo,
+Monaco,
+Consolas,
+'Courier New',
+monospace !default;
+$font-family-base: $MyFont-stack, $font-family-sans-serif !default;
+// SIZE
+$font_size_base: calc(1rem + .4vw);
+
+// LINE HEIGHT
+$line-height-base: 200%;
+
+// WEIGHT
+$font-weight-light: 300 !default;
+$font-weight-base: 400 !default; // 'normal'
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-black: 900 !default; 
+
+// https://github.com/Ignia/Sass-Structure/blob/master/Base/_typography.scss

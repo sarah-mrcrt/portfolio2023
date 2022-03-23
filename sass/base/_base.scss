@@ -1,0 +1,107 @@
+// -----------------------------------------------------------------------------
+// Styles très basiques
+// -----------------------------------------------------------------------------
+
+
+/*************** Document ***************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  // Widht/Height
+  max-width: 100%;
+  max-height: 100%;
+  // Fonts
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-light;
+  // Colors
+  color: $text-color;
+  background-color: $bg-color;
+  color: $white;
+  // Scroll
+  scroll-behavior: smooth;
+  // Container
+  @extend .centered;
+  // background-image: url('../../ressources/images/1.jpg');
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  main {
+    max-width: 100vw;
+    // width: $container-sm;
+    // overflow-x: hidden;
+    // @extend .centered;
+    margin-left: auto;
+  }
+}
+
+/*************** Éléments visuels  ***************/
+
+a,
+p,
+i,
+ul,
+li {
+  color: $black;
+  // mix-blend-mode: difference;
+}
+
+a {
+  color: inherit;
+  // color: $link-color;
+  text-decoration: none;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    color: black;
+  }
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img,
+svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.h2,
+h2 {
+  font-weight: $font-weight-black;
+  text-transform: uppercase;
+  // font-size: 2.5rem;
+  line-height: 1.7;
+  //  font-size: clamp(3vw, 5vw, 2.5rem);
+}
+
+h3 {
+  font-weight: $font-weight-semibold;
+  font-size: 2.5rem;
+  //  font-size: clamp(3vw, 5vw, 2.5rem);
+}
+
+.container-sm {
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}

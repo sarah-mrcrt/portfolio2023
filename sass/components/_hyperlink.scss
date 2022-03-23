@@ -1,0 +1,25 @@
+a {
+    @include links($text-color, $hover-color);
+}
+
+.link {
+    display: inline-block;
+    padding: .2rem;
+    font-weight: $font-weight-semibold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    // Remplir de gauche à droite
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    color: $white;
+    background-size: 235%;
+    transition: .5s ease;
+    mix-blend-mode: difference;
+
+    &:hover {
+        background-position: left;
+        mix-blend-mode: difference;
+    }
+}
+
+
