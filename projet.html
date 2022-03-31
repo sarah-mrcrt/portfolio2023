@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
 
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -19,7 +19,6 @@
         <meta name="keywords" content="portfolio, multimedia, audiovisuel, communication, web, mmi">
         <meta name="copyright" content="© Sarah Mauriaucourt" />
         <meta name="robots" content="index, follow, archive" />
-        <meta name="google-site-verification" content="bIK9RiufuK3vODtMAQhSyZmY-jGmQRtT0yJAgjXtAD4" />
         <!-- OpenGraphic for SocailMedia -->
         <!-- website -->
         <meta property="og:type" content="website" />
@@ -41,13 +40,13 @@
         <meta name="theme-color" content="#ffffff">
         <!-- Font awesome -->
         <script src="https://kit.fontawesome.com/a9438ed46f.js" crossorigin="anonymous"></script>
-
         <!-- Stylesheets -->
         <link rel="stylesheet" href="./css/main.min.css" />
 
     </head>
 
     <body>
+        <!-- <img src="./ressources/images/1.jpg" id="ptn">  -->
         <header id="header">
             <h1 class="col-2">
                 <a href="index.html">
@@ -77,7 +76,9 @@
                 </a>
             </h1>
 
-            <nav class="col-7">
+            <!-- <menu> -->
+            <span id="close"><i class="fas fa-times"></i></span>
+            <nav class="col-7 navigation-link">
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -85,40 +86,65 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
-            <ul class="col-2">
-                <li><a><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a><i class="fa-brands fa-behance"></i></a></li>
-                <li><a><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a><i class="fa-solid fa-at"></i></a></li>
+            <ul class="col-2 social-media">
+                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li><a href="https://www.behance.net/sarahmauriaucourt"><i class="fa-brands fa-behance"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/sarahmrcrt_photo/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li><a href="mauriaucourt.sarah@gmail.com"><i class="fa-solid fa-at"></i></a></li>
             </ul>
+            <!-- </menu> -->
+            <span id="open"><i class="fas fa-bars"></i></span>
         </header>
+
 
         <main id="projet">
             <section>
-                <header>
+                <header id="projets-titre">
                     <h2>NOW | Court-métrage</h2>
-                    <ul>
+                    <ul class="tags">
                         <li>Audiovisuel</li>
                         <li>Design</li>
                     </ul>
                 </header>
 
-                <article>
-                    <div>
-                        <h2></h2>
-                        <p></p>
-                    </div>
-                    
-                    <div>
-                        <h2></h2>
+                <article id="projet-info">
+                    <div id="projet-info-expertise">
+                        <h3>Expertises</h3>
                         <ul>
-                            <li></li>
+                            <li>Affiche</li>
+                            <li>Design Graphique</li>
+                            <li>Illustrator</li>
+                            <li>Films</li>
                         </ul>
+                    </div>
+                    <div id="projet-info-logiciels">
+                        <h3>Logiciels</h3>
+                        <ul>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                    <div id="projet-info-missions">
+                        <h3>Missions</h3>
+                        <p>Réinterprétation de l'affiche du film Persona d'Ingmar Bergman. Comme
+                            dans le film, cette affiche explore la quête d'identité.</p>
+                    </div>
+                    <div id="projet-info-demarches">
+                        <h3>Démarches</h3>
+                        <p>Comme dans le film d’Ingmar Bergman, cette affiche explore l’identité personnelle au travers
+                            de la dépersonnalisation, volonté de se différencier et de se ressembler. Difficilement
+                            discernable, on retrouve les deux protagonistes de l’histoire par une superposition de sept
+                            photographies. Les effets de dégradé et de négatif ajoutent un aspect fantomatique.</p>
                     </div>
                 </article>
 
-                <img src="" alt="">
+                <figure>
+                    <img src="./ressources/images/2021_audio_player.jpg" alt="">
+                    <img
+                        src="./ressources/images/2021_audio_player.jpg" alt="">
+                </figure>
 
                 <a class="btn">Découvrir</a>
             </section>
@@ -150,8 +176,9 @@
             </div>
         </footer>
 
-        <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
     </body>
-
 </html>

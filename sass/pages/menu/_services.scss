@@ -1,0 +1,53 @@
+// actif
+main {
+    header.entete {
+        // Marges
+        padding: $marge-header 0;
+        // Fond
+        background-color: $black;
+        // Flex
+        display: flex;
+        justify-content: space-around;
+
+        @for $i from 1 through 6 {
+            p,
+            h#{$i} {
+                color: $white;
+            }
+        }
+    }
+}
+
+main#services {
+    section {
+        // margin: 0 5%;
+        article {
+            // Bordures
+            border-top: $border;
+            border-bottom: $border;
+            // Flex
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // Taille
+            width: $container-sm;
+            margin: auto;
+            ;
+
+            p:first-child {
+                font-size: 8rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: $font-weight-black;
+                margin-left: 2%;
+                padding: 2rem 0;
+            }
+
+            div {
+                width: 60%;
+                margin-right: 2%;
+            }
+        }
+    }
+
+    margin-bottom: 2%;
+}

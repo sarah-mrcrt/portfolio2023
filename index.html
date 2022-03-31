@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
 
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -19,7 +19,6 @@
         <meta name="keywords" content="portfolio, multimedia, audiovisuel, communication, web, mmi">
         <meta name="copyright" content="© Sarah Mauriaucourt" />
         <meta name="robots" content="index, follow, archive" />
-        <meta name="google-site-verification" content="bIK9RiufuK3vODtMAQhSyZmY-jGmQRtT0yJAgjXtAD4" />
         <!-- OpenGraphic for SocailMedia -->
         <!-- website -->
         <meta property="og:type" content="website" />
@@ -41,7 +40,6 @@
         <meta name="theme-color" content="#ffffff">
         <!-- Font awesome -->
         <script src="https://kit.fontawesome.com/a9438ed46f.js" crossorigin="anonymous"></script>
-
         <!-- Stylesheets -->
         <link rel="stylesheet" href="./css/main.min.css" />
 
@@ -78,7 +76,9 @@
                 </a>
             </h1>
 
-            <nav class="col-7">
+            <!-- <menu> -->
+            <span id="close"><i class="fas fa-times"></i></span>
+            <nav class="col-7 navigation-link">
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -86,13 +86,17 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
-            <ul class="col-2">
-                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.behance.net/sarahmauriaucourt"><i class="fa-brands fa-behance"></i></a></li>
-                <li><a href="https://www.instagram.com/sarahmrcrt_photo/"><i class="fa-brands fa-instagram"></i></a></li>
+            <ul class="col-2 social-media">
+                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li><a href="https://www.behance.net/sarahmauriaucourt"><i class="fa-brands fa-behance"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/sarahmrcrt_photo/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
                 <li><a href="mauriaucourt.sarah@gmail.com"><i class="fa-solid fa-at"></i></a></li>
             </ul>
+            <!-- </menu> -->
+            <span id="open"><i class="fas fa-bars"></i></span>
         </header>
 
         <main id="home">
@@ -106,9 +110,9 @@
                         <li>cadreuse & monteuse</li>
                     </ul>
                 </article>
-                <div class="col-6">
+                <figure class="col-6">
                     <img src="./ressources/images/Sarah_Mauriaucourt.png" alt="Photo de la tête de Sarah Mauriaucourt">
-                </div>
+                </figure>
             </section>
 
             <section id="about">
@@ -149,21 +153,24 @@
                     </article>
 
                     <article>
-                        <a href="">
+                        <a href="projet.html" class="col-5">
                             <figure>
                                 <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
+                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
                                 <figcaption>Web</figcaption>
                             </figure>
                         </a>
-                        <a href="">
+                        <a href="projet.html" class="col-5">
                             <figure>
                                 <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
+                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
                                 <figcaption>Print</figcaption>
                             </figure>
                         </a>
-                        <a href="">
+                        <a href="projet.html" class="col-5">
                             <figure>
                                 <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
+                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
                                 <figcaption>Audiovisuel</figcaption>
                             </figure>
                         </a>
@@ -188,7 +195,8 @@
         </footer>
 
         <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
     </body>
-
 </html>

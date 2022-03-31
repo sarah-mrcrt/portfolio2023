@@ -11,11 +11,9 @@ $black: black;
 $white: white;
 $grey: #8C8C8C;
 
-// Equivalent filter :https://codepen.io/sosuke/pen/Pjoqqp
+// Equivalent filter : https://codepen.io/sosuke/pen/Pjoqqp
 $black-svg: invert(92%) sepia(45%) saturate(8%) hue-rotate(263deg) brightness(112%) contrast(100%);
-;
 $white-svg: invert(0%) sepia(10%) saturate(7472%) hue-rotate(258deg) brightness(109%) contrast(103%);
-
 $grey-svg: invert(58%) sepia(1%) saturate(954%) hue-rotate(47deg) brightness(96%) contrast(91%);
 
 //-------------------------
@@ -27,37 +25,42 @@ $error-color : #ff0000 !default;
 $link-color : $black !default;
 $hover-color : $black !default;
 $active-color : $black !default;
-// $button-default-bg-color: #333;
-// $button-default-bg-color: #000;
-// $button-default-font-color: #d6e7d3;
 
-// Border
-$border: 2px solid $black;
-
-$transition: all .5s ease-in-out;
-
-
-// $grid-breakpoints: (
-// xs: 0,
-// sm: 576px,
-// md: 768px,
-// lg: 992px,
-// xl: 1200px
-// );
-
-// $container-max-widths: (
-// sm: 540px,
-// md: 720px,
-// lg: 960px,
-// xl: 1140px
-// );
-
-
+//-------------------------
+// Marges
+//-------------------------
+// 
 $container-sm : 98%;
 $container-md : 90%;
 
-
+// 
 $espace-titre: 5%;
-$espace-texte:10%;
+$espace-texte: 10%;
 
+// 
+$marge-header: 5rem;
 // Pop up (image)
+
+//-------------------------
+// Bordure
+//-------------------------
+$border: 2px solid $black;
+
+//-------------------------
+// Transition
+//-------------------------
+$transition: all .5s ease-in-out;
+
+
+//-------------------------
+// Responsive
+//-------------------------
+$breakpoints: ( // Small tablets and large smartphones (landscape view)
+    // 'sm-phone': 320px,
+    'sm-phone': 220px,
+    // Small tablets (portrait view)
+    'md-tablet': 768px,
+    // Tablets and small desktops
+    'lg-desktop': 1024px,
+    // Large tablets and desktops
+    'xl-widescreen': 1200px)!default;

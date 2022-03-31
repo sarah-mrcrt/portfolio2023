@@ -2,6 +2,9 @@
 // Sélecteurs centralisés et réutilisables
 // -----------------------------------------------------------------------------
 
+//-------------------------
+// Marges
+//-------------------------
 .text-border {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $white;
@@ -12,4 +15,30 @@
 .centered {
     margin-left: auto;
     margin-right: auto;
+}
+
+//-------------------------
+// Marges
+//-------------------------
+.tags {
+    display: flex;
+    @extend .blend-mode-difference;
+
+    li {
+
+        // Pipe séparateur
+        &:not(:last-child):after {
+            display: inline-block;
+            content: "";
+            height: 70%;
+            width: .3rem;
+            background-color: $white;
+            margin: 0 1rem;
+        }
+    }
+}
+
+.blend-mode-difference {
+    color: $white;
+    mix-blend-mode: difference;
 }

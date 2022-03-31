@@ -3,12 +3,16 @@
 // -----------------------------------------------------------------------------
 main#home {
     section#accueil {
+        // Marges
         margin-left: auto;
+        // Tailles
         height: 100vh;
+        width: $container-md;
+        // Flex
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: $container-md;
+
 
         article {
             h3 {
@@ -17,19 +21,31 @@ main#home {
             }
 
             ul {
-                font-size: calc(1rem + 1.4vw);
-
                 li {
                     margin: 2% 0;
                 }
             }
         }
 
-        div {
+        figure {
             align-self: end;
 
             img {
                 width: 100%;
+            }
+        }
+
+        @include responsive("lg-desktop") {
+            figure {
+                position: absolute;
+                top: 0;
+                left: 0;
+                mix-blend-mode: luminosity;
+                width: 100%;
+                z-index: 0;
+                opacity: .3;
+                height: 100vh;
+                pointer-events: none;
             }
         }
     }
@@ -68,7 +84,6 @@ main#home {
             p {
                 margin-top: 4%;
                 font-size: 2.5vw;
-                // line-height: 2.5rem;
             }
 
             .btn {
@@ -82,7 +97,6 @@ main#home {
 
         h2 {
             width: 32%;
-            // text-align: center;
             margin-top: -2px;
             padding-left: $espace-titre;
         }
@@ -90,7 +104,6 @@ main#home {
         h2,
         .btn {
             border: $border;
-            // background-color: $white;    
         }
 
         article {
@@ -109,12 +122,8 @@ main#home {
             }
 
             .btn {
-
-
                 align-self: end;
-
                 padding: 2rem;
-
                 background-color: $white;
                 position: absolute;
                 bottom: -27%;
@@ -148,10 +157,13 @@ main#home {
             }
 
             &:nth-child(2n) {
+                // Flex
                 display: flex;
                 justify-content: space-between;
 
                 &:hover {
+                    transition: $transition;
+
                     a {
                         width: 25%;
                     }
@@ -162,9 +174,26 @@ main#home {
                     }
                 }
 
+
                 a {
                     transition: $transition;
-                    width: 33.33%;
+                    // width: 33.33%;
+                    overflow: hidden;
+
+                    .arrow {
+                        // Positionnement
+                        position: absolute;
+                        top: 100%;
+                        left: 100%;
+                        transform: translate(0%, 100%);
+                        z-index: 2;
+                        // Width
+                        height: 10%;
+                        width: auto;
+                        // Transition
+                        transition: all .7s ease-out;
+                        opacity: 0;
+                    }
 
                     figure {
                         position: relative;
@@ -187,10 +216,29 @@ main#home {
                     }
 
                     &:hover {
-                        transition: all .5s ease-in-out;
+                        // Transition
+                        transition: all .4s ease-out;
                         mix-blend-mode: difference;
+                        // Taille
                         width: 50%;
                         height: 307px;
+
+
+                        .arrow {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            align-content: center;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            // Width
+                            width: auto;
+                            height: 100%;
+                            // Transition
+                            transition: all .4s ease-out;
+                            opacity: 1;
+                        }
 
                         figcaption {
                             // Faire apparaitre le figcaption de l'élément hover

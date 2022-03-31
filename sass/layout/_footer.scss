@@ -3,36 +3,45 @@
 // -----------------------------------------------------------------------------
 
 footer#contact {
+    // Taille
     height: 100vh;
+    // Fond
     background: $black;
+    // Marges
+    padding: 0 10%;
+    // Flex
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 10%;
-    // Cacher éléments du main derrière le footer
-    position: absolute;
+    // Cacher les éléments qui sont en absolute
+    position: relative;
     z-index: 9;
 
     p:first-child {
-        font-size: 6.5vw;
+        // Fonts
+        font-size: 4.5rem;
         text-transform: uppercase;
-        padding: 10% 0;
         color: $white;
-
+        // Marges
+        padding: 10% 0;
     }
 
     div {
         hr {
+            // Marges
             margin: 2% 0;
+            // Border
             height: 0.1px;
             background-color: $grey;
             border: none;
         }
 
         article {
+            // Flex
             display: flex;
             justify-content: space-between;
             align-items: center;
+            // Marges
             margin-bottom: 2%;
 
             ul {
@@ -49,6 +58,12 @@ footer#contact {
                 font-size: .7rem;
                 color: $grey;
             }
+        }
+    }
+
+    @include responsive("lg-desktop") {
+        p:first-child {
+            font-size: 3rem;
         }
     }
 }

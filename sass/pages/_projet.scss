@@ -1,38 +1,122 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
 main#projet {
-    article {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-    }
 
-    .div1 {
-        grid-area: 1 / 1 / 2 / 2;
-    }
+    margin-top: $marge-header;
+    // a,
+    // p,
+    // h2,
+    // ul,
+    // li {
+    //     @extend .blend-mode-difference;
+    // }
 
-    .div2 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
+    section {
+        // Fond
+        background-color: $white;
+        // Marges
+        padding: 1rem 0;
 
-    .div3 {
-        grid-area: 1 / 2 / 2 / 4;
-    }
+        header#projets-titre {
+            // Bordures
+            border-top: $border;
+            // Marges
+            // padding: 2rem 0;
+        }
 
-    .div4 {
-        grid-area: 1 / 4 / 3 / 6;
+        // https://angrytools.com/css-grid/
+        article#projet-info {
+            // Bordures
+            border-bottom: $border;
+            // Marges
+            // padding: 2rem 0;
+            // Grid
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px;
+            // Taille
+            height: 100%;
+            // width: $container-sm;
+            // Margin
+            margin: 2rem 0;
+            // background-color: grey;
+
+
+            #projet-info-expertise {
+                // background-color: #5DDBDD;
+                // Grid : DEBUT Positionnement
+                grid-row-start: 1;
+                grid-column-start: 1;
+                // Grid : FIN Positionnement
+                grid-row-end: 2;
+                grid-column-end: 2;
+            }
+
+            #projet-info-logiciels {
+                // background-color: #283a0e;
+                // Grid : DEBUT Positionnement
+                grid-row-start: 2;
+                grid-column-start: 1;
+                // Grid : FIN Positionnement
+                grid-row-end: 3;
+                grid-column-end: 2;
+
+            }
+
+            #projet-info-missions {
+                // background-color: #BB5EBC;
+                // Grid : DEBUT Positionnement
+                grid-row-start: 1;
+                grid-column-start: 2;
+                // Grid : FIN Positionnement
+                grid-row-end: 2;
+                grid-column-end: 4;
+
+            }
+
+            #projet-info-demarches {
+                // background-color: #575B5D;
+                // Grid : DEBUT Positionnement
+                grid-row-start: 1;
+                grid-column-start: 4;
+                // Grid : FIN Positionnement
+                grid-row-end: 3;
+                grid-column-end: 6;
+            }
+
+            background-color: red;
+            position: relative;
+            z-index: 8;
+        }
+
+        .btn {
+            position: fixed;
+            z-index: 1;
+            bottom: 0;
+            right: 0;
+        }
     }
 
     nav#pagination {
         // Taille
         height: 10rem;
+        // Fond
+        background-color: $white;
+        // Cacher les éléments qui sont en absolute
+        position: relative;
+        z-index: 8;
         // Hover
         position: relative;
         // Flex
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // background-color: red;
+        overflow: hidden;
+        width: 100%;
+        background-color: red;
 
         figure {
             color: blue;

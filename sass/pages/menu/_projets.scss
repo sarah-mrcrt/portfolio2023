@@ -1,0 +1,113 @@
+main#projets {
+    aside.filter-buttons {
+        // element fixe
+        position: fixed;
+        right: 0;
+        bottom: 12%;
+        // z-index: -1;
+        // Fonts
+        text-align: right;
+        // Fond
+        // background-color: $black;
+
+        // @extend .blend-mode-difference;
+        ul#filter-btns {
+            background-color: red;
+
+            li {
+                background-color: $white;
+                cursor: pointer;
+
+                &.active {
+                    color: $white;
+                    background-color: $black;
+                }
+
+                // &.filter {
+                //     // .filter-tags {
+
+                //     // }
+                //     li.active {
+                //         background-color: grey;
+                //         border: $border;
+                //     }
+
+                //     .link {
+                //         text-decoration: none;
+                //     }
+                // }
+            }
+        }
+    }
+
+    section {
+        // Marges
+        margin: 3% 0;
+
+        article {
+            // Marges
+            padding: 2rem 0;
+            // Flex
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // Hover
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            height: 10rem;
+            transition: $transition;
+            // Mix blend
+            background-color: $white;
+            // Bordures
+            border-top: $border;
+
+            &:last-child {
+                border-bottom: $border;
+            }
+
+            a {
+                transition: $transition;
+                //  Hover : Liens cachés
+                opacity: 0;
+            }
+
+            header {
+                // Flex
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                a,
+                p,
+                h2,
+                ul,
+                li {
+                    @extend .blend-mode-difference;
+                }
+            }
+
+            a.image {
+                // Positionnement
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                // Centrer l'image
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:hover {
+                transition: $transition;
+
+                a {
+                    transition: $transition;
+
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
