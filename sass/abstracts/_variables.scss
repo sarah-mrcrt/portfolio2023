@@ -39,7 +39,6 @@ $espace-texte: 10%;
 
 // 
 $marge-header: 5rem;
-// Pop up (image)
 
 //-------------------------
 // Bordure
@@ -57,9 +56,11 @@ $transition: all .5s ease-in-out;
 //-------------------------
 $breakpoints: ( // Small tablets and large smartphones (landscape view)
     // 'sm-phone': 320px,
-    'sm-phone': 220px,
+    'sm-phone': 630px,
     // Small tablets (portrait view)
     'md-tablet': 768px,
+    // Tablets and small desktops
+    'md-desktop': 992px,
     // Tablets and small desktops
     'lg-desktop': 1024px,
     // Large tablets and desktops

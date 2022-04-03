@@ -36,6 +36,12 @@ main#home {
         }
 
         @include responsive("lg-desktop") {
+            width: inherit;
+
+            article {
+                width: 79.5%;
+            }
+
             figure {
                 position: absolute;
                 top: 0;
@@ -52,7 +58,7 @@ main#home {
 
 
     section#about {
-        max-height: 100vh;
+        min-height: 100%;
         border-top: $border;
         border-left: $border;
         border-bottom: $border;
@@ -90,6 +96,34 @@ main#home {
                 align-self: end;
             }
         }
+
+
+        @include responsive("md-desktop") {
+            article {
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+
+        @include responsive("md-tablet") {
+            article {
+                margin: auto;
+                width: 88%;
+
+                h3 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: inherit;
+
+                }
+
+                .btn {
+                    margin: 2rem 0;
+                }
+            }
+        }
     }
 
     section#services {
@@ -116,7 +150,7 @@ main#home {
             width: 90%;
 
             p {
-                padding: 5% 0;
+                padding: 5% 10% 5% 0;
                 width: 71%;
                 color: $white;
             }
@@ -127,6 +161,39 @@ main#home {
                 background-color: $white;
                 position: absolute;
                 bottom: -27%;
+                mix-blend-mode: normal;
+                color: $black;
+            }
+        }
+
+        @include responsive("lg-desktop") {
+            article {
+                .btn {
+                    right: 10%;
+                    bottom: -40%;
+                    padding: 1rem;
+                }
+            }
+        }
+
+        @include responsive("md-desktop") {
+            article {
+                width: 100%;
+
+                p {
+                    padding-right: 0;
+                }
+
+                .btn {
+                    position: relative;
+                    right: 0;
+                }
+            }
+        }
+
+        @include responsive("sm-phone") {
+            h2 {
+                width: 62%;
             }
         }
     }
@@ -174,7 +241,6 @@ main#home {
                     }
                 }
 
-
                 a {
                     transition: $transition;
                     // width: 33.33%;
@@ -191,7 +257,7 @@ main#home {
                         height: 10%;
                         width: auto;
                         // Transition
-                        transition: all .7s ease-out;
+                        transition: all .6s ease-out;
                         opacity: 0;
                     }
 
@@ -223,7 +289,6 @@ main#home {
                         width: 50%;
                         height: 307px;
 
-
                         .arrow {
                             display: flex;
                             align-items: center;
@@ -236,7 +301,7 @@ main#home {
                             width: auto;
                             height: 100%;
                             // Transition
-                            transition: all .4s ease-out;
+                            transition: all .3s ease-out;
                             opacity: 1;
                         }
 
@@ -251,6 +316,40 @@ main#home {
 
         div {
             border: $border;
+        }
+
+        @include responsive("md-desktop") {
+            article {
+                &:first-child {
+                    flex-wrap: wrap;
+
+                    .btn {
+                        margin-top: 1rem;
+                        margin-left: auto;
+                    }
+                }
+
+                &:nth-child(2n) {
+                    flex-wrap: wrap;
+
+                    &:hover {
+                        a {
+                            width: 100%;
+                        }
+
+                        // Cacher les figcaptions des siblings
+                        figcaption {
+                            display: block;
+                        }
+                    }
+
+                    a {
+                        background-color: red;
+                        mix-blend-mode: normal;
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
 }

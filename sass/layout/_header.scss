@@ -1,7 +1,6 @@
 // -----------------------------------------------------------------------------
 // Header : Navigation
 // -----------------------------------------------------------------------------
-
 header#header {
     // Fixed
     position: fixed;
@@ -69,15 +68,18 @@ header#header {
     // Responsive : Menu burger
     //-------------------------
     @include responsive('lg-desktop') {
-        background: red;
         // Taille
         width: 100%;
-        // &:only(a) {
         mix-blend-mode: normal;
-        // }
 
         /*************** Menu burger  ***************/
-        // Apparition des button
+        // Permet d'avoir l'effet "mix-blend-mode différence" sur le header format responsive : En cachant le header en " mix-blend-mode: normal"
+        .logo,
+        #open {
+            opacity: 0;
+        }
+        
+            // Apparition des buttons
         #open,
         #close {
             display: block;
@@ -162,6 +164,32 @@ header#header {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
             }
+        }
+    }
+}
+
+#header-mix-blend-mode {
+    // Permet d'avoir l'effet "mix-blend-mode différence" sur le header format responsive : En cachant le header en " mix-blend-mode: normal"
+    display: none;
+
+    @include responsive('lg-desktop') {
+        // Fixed
+        position: fixed;
+        z-index: 9;
+        top: 0;
+        // Flex
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        // Taille
+        height: $marge-header;
+        width: 100%;
+        // Différence
+        mix-blend-mode: difference;
+
+        span i {
+            font-size: 2rem;
+            color: $white;
         }
     }
 }

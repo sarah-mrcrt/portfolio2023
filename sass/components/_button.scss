@@ -2,15 +2,14 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 .btn {
-	// Marges
-	margin-top: -0.5em;
 	// Fonts
 	font-weight: $font-weight-bold;
 	text-transform: uppercase;
 	text-align: center;
-	color: $black;
 	// Hover
 	transition: $transition;
+	@extend .blend-mode-difference;
+	    display: inline-block;
 
 	&:after {
 		// Pseudo element
@@ -23,11 +22,13 @@
 		background-repeat: no-repeat;
 		background-size: 100%;
 		// Zone de l'image
-		height: 4rem;
+		height: 3.3rem;
 		width: 4rem;
 		// Couleur 
-		-webkit-filter: $black-svg;
-		filter: $black-svg;
+		// -webkit-filter: $black-svg;
+		// filter: $black-svg;
+		mix-blend-mode: difference;
+
 	}
 
 	&:hover {

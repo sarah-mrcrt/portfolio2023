@@ -42,23 +42,23 @@ for (let i = 0; i < filterButtons.length; i++) {
 
         for (let k = 0; k < items.length; k++) {
             // Items DISABLED
-            // items[k].style.display = "none";
             items[k].style.opacity = ".5";
             items[k].style.pointerEvents = "none";
             items[k].style.background = "lightgrey";
+            items[k].style.borderTop = "2px solid black";;
 
             if (target == items[k].getAttribute("data-id")) {
                 // Items ACTIF
-                // items[k].style.display = "block";
                 items[k].style.opacity = "1";
                 items[k].style.pointerEvents = "auto";
                 items[k].style.background = "black";
+                items[k].style.borderTop = "2px solid white";
             }
             if (target == "all") {
-                // items[k].style.display = "block";
                 items[k].style.opacity = "1";
-                items[k].style.background = "white";
                 items[k].style.pointerEvents = "auto";
+                items[k].style.background = "white";
+                items[k].style.borderTop = "2px solid black";
             }
         }
     })

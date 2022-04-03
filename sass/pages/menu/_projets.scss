@@ -4,6 +4,7 @@ main#projets {
         position: fixed;
         right: 0;
         bottom: 12%;
+        right: 2.5%;
         // z-index: -1;
         // Fonts
         text-align: right;
@@ -17,25 +18,13 @@ main#projets {
             li {
                 background-color: $white;
                 cursor: pointer;
+                padding: 0 1rem;
+                text-transform: uppercase;
 
                 &.active {
                     color: $white;
                     background-color: $black;
                 }
-
-                // &.filter {
-                //     // .filter-tags {
-
-                //     // }
-                //     li.active {
-                //         background-color: grey;
-                //         border: $border;
-                //     }
-
-                //     .link {
-                //         text-decoration: none;
-                //     }
-                // }
             }
         }
     }
@@ -61,6 +50,7 @@ main#projets {
             background-color: $white;
             // Bordures
             border-top: $border;
+            padding: 0 1.5rem;
 
             &:last-child {
                 border-bottom: $border;
