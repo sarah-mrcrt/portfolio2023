@@ -35,6 +35,9 @@ main#home {
             }
         }
 
+        //-------------------------
+        // Responsive : Menu burger
+        //-------------------------
         @include responsive("lg-desktop") {
             width: inherit;
 
@@ -97,7 +100,9 @@ main#home {
             }
         }
 
-
+        //-------------------------
+        // Responsive : Menu burger
+        //-------------------------
         @include responsive("md-desktop") {
             article {
                 margin-right: auto;
@@ -166,6 +171,9 @@ main#home {
             }
         }
 
+        //-------------------------
+        // Responsive : Menu burger
+        //-------------------------
         @include responsive("lg-desktop") {
             article {
                 .btn {
@@ -318,6 +326,9 @@ main#home {
             border: $border;
         }
 
+        //-------------------------
+        // Responsive : Menu burger
+        //-------------------------
         @include responsive("md-desktop") {
             article {
                 &:first-child {
@@ -336,15 +347,9 @@ main#home {
                         a {
                             width: 100%;
                         }
-
-                        // Cacher les figcaptions des siblings
-                        figcaption {
-                            display: block;
-                        }
                     }
 
                     a {
-                        background-color: red;
                         mix-blend-mode: normal;
                         width: 100%;
                     }

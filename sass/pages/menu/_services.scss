@@ -10,6 +10,7 @@ main {
         justify-content: space-around;
 
         @for $i from 1 through 6 {
+
             p,
             h#{$i} {
                 color: $white;
@@ -20,6 +21,7 @@ main {
 
 main#services {
     section {
+
         // margin: 0 5%;
         article {
             // Bordures
