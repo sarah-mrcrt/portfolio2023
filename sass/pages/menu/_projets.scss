@@ -9,16 +9,13 @@ main#projets {
         right: 0;
         bottom: 12%;
         right: 2.5%;
-        // z-index: -1;
+        z-index: 6;
         // Fonts
         text-align: right;
         // Fond
         // background-color: $black;
 
-        // @extend .blend-mode-difference;
         ul#filter-btns {
-            background-color: red;
-
             li {
                 background-color: $white;
                 cursor: pointer;
@@ -36,7 +33,7 @@ main#projets {
     section {
         article {
             // Marges
-            padding: 2rem 0;
+            // padding: 2rem 0;
             // Flex
             display: flex;
             justify-content: space-between;
@@ -49,7 +46,7 @@ main#projets {
             transition: $transition;
             // Mix blend
             background-color: $white;
-         
+
             a {
                 transition: $transition;
                 //  Hover : Liens cachés
@@ -88,10 +85,44 @@ main#projets {
 
                 a {
                     transition: $transition;
-
                     opacity: 1;
                 }
             }
+        }
+    }
+
+    @include responsive("lg-desktop") {
+        aside.filter-buttons {
+            padding: 3% 0;
+            position: sticky;
+            top: 100px;
+            text-align: center;
+            // z-index: 6;
+            width: 100%;
+            // mettre container
+
+            ul#filter-btns {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                li {
+                    background: $white;
+                    border: .01rem solid $black;
+                    padding: .5rem 1rem;
+                }
+            }
+        }
+
+        section.col-10 {
+            width: 100%;
+        }
+    }
+
+    @include responsive("sm-phone") {
+        aside.filter-buttons {
+            position: relative;
+            top: auto;
         }
     }
 }

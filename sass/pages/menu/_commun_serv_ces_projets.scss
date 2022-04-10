@@ -12,6 +12,9 @@ main {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        // Position
+        position: relative;
+        z-index: 7;
 
         @for $i from 1 through 3 {
 
@@ -33,9 +36,9 @@ main {
             }
         }
 
-  //-------------------------
-    // Responsive
-    //-------------------------
+        //-------------------------
+        // Responsive
+        //-------------------------
         @include responsive("md-desktop") {
             padding-right: 1.5rem;
             padding-left: 1.5rem;
@@ -52,12 +55,10 @@ main {
             p {
                 width: 100%;
             }
-
         }
     }
 
     section.article-bordered {
-        // background-color: red;
         // Marges
         margin: 3% 0;
 

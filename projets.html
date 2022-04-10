@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
 
     <head>
         <!-- Encondage -->
@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Expérience utilisateur -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <!-- Référencement-->
         <title>Sarah Mauriaucourt | Portfolio</title>
         <meta name="description"
@@ -31,9 +31,7 @@
         <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
         <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://sarahmauriaucourt.fr" />
         <!-- Favicon -->
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="{{ asset('images/icon/ms-icon-144x144.png')}} }}">
-        <meta name="theme-color" content="#ffffff">
+
         <!-- Font awesome -->
         <script src="https://kit.fontawesome.com/a9438ed46f.js" crossorigin="anonymous"></script>
         <!-- Stylesheets -->
@@ -42,12 +40,41 @@
     </head>
 
     <body>
-        <!-- <img src="./ressources/images/1.jpg" id="ptn">  -->
+
+        <header id="header-mix-blend-mode">
+            <h1 class="col-2">
+                <a href="index.html">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="121" height="82" viewBox="0 0 121 82">
+                        <g fill="none" stroke="#fff" stroke-width="1">
+                            <rect width="90" height="27" stroke="none"></rect>
+                            <rect x="0.5" y="0.5" width="89" height="26" fill="none"></rect>
+                        </g>
+                        <g transform="translate(0 55)" fill="none" stroke="#fff" stroke-width="1">
+                            <rect width="90" height="27" stroke="none"></rect>
+                            <rect x="0.5" y="0.5" width="89" height="26" fill="none"></rect>
+                        </g>
+                        <g transform="translate(0 29)" fill="#fff" stroke="#fff" stroke-width="1">
+                            <rect width="90" height="24" stroke="none"></rect>
+                            <rect x="0.5" y="0.5" width="89" height="23" fill="none"></rect>
+                        </g>
+                        <g transform="translate(121) rotate(90)" fill="#fff" stroke="#fff" stroke-width="1">
+                            <rect width="27" height="26" stroke="none"></rect>
+                            <rect x="0.5" y="0.5" width="26" height="25" fill="none"></rect>
+                        </g>
+                        <g transform="translate(121 29) rotate(90)" fill="none" stroke="#fff" stroke-width="1">
+                            <rect width="53" height="26" stroke="none"></rect>
+                            <rect x="0.5" y="0.5" width="52" height="25" fill="none"></rect>
+                        </g>
+                    </svg>
+                </a>
+            </h1>
+            <span id="closee"><i class="fas fa-bars" aria-hidden="true"></i></span>
+        </header>
+
         <header id="header">
             <h1 class="col-2">
                 <a href="index.html">
-                    <svg class="logo" itemprop="logo" xmlns="http://www.w3.org/2000/svg" width="121" height="82"
-                        viewBox="0 0 121 82">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="121" height="82" viewBox="0 0 121 82">
                         <g fill="none" stroke="#fff" stroke-width="1">
                             <rect width="90" height="27" stroke="none" />
                             <rect x="0.5" y="0.5" width="89" height="26" fill="none" />
@@ -83,18 +110,23 @@
                 </ul>
             </nav>
             <ul class="col-2 social-media">
-                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt"><i class="fa-brands fa-linkedin-in"></i></a>
+                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
                 </li>
-                <li><a href="https://www.behance.net/sarahmauriaucourt"><i class="fa-brands fa-behance"></i></a>
+                <li><a href="https://www.behance.net/sarahmauriaucourt" target="_blank"><i
+                            class="fa-brands fa-behance"></i></a>
                 </li>
-                <li><a href="https://www.instagram.com/sarahmrcrt_photo/"><i class="fa-brands fa-instagram"></i></a>
+                <li><a href="https://www.instagram.com/sarahmrcrt_photo/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </li>
-                <li><a href="mauriaucourt.sarah@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+                <li><a
+                        href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"><i
+                            class="fa-solid fa-at"></i></a></li>
             </ul>
             <!-- </menu> -->
             <span id="open"><i class="fas fa-bars"></i></span>
         </header>
-
+        
         <main id="projets">
             <header class="entete-pages">
                 <div class="col-4">
@@ -149,7 +181,7 @@
                         <img src="./ressources/images/2021_audio_player.jpg" alt="">
                     </a>
                 </article>
-                
+
                 <article class="item" data-id="Audiovisuel">
                     <header>
                         <h2>dd</h2>

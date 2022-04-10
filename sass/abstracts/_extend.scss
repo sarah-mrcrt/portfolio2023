@@ -1,6 +1,10 @@
 // -----------------------------------------------------------------------------
 // Sélecteurs centralisés et réutilisables
 // -----------------------------------------------------------------------------
+.blend-mode-difference {
+    color: $white;
+    mix-blend-mode: difference;
+}
 
 //-------------------------
 // Marges
@@ -18,7 +22,7 @@
 }
 
 //-------------------------
-// Marges
+// Tags
 //-------------------------
 .tags {
     display: flex;
@@ -36,9 +40,4 @@
             margin: 0 1rem;
         }
     }
-}
-
-.blend-mode-difference {
-    color: $white;
-    mix-blend-mode: difference;
 }
