@@ -1,3 +1,7 @@
+// -----------------------------------------------------------------------------
+// Page : PROJETS
+// -----------------------------------------------------------------------------
+
 main#projets {
     aside.filter-buttons {
         // element fixe
@@ -30,9 +34,6 @@ main#projets {
     }
 
     section {
-        // Marges
-        margin: 3% 0;
-
         article {
             // Marges
             padding: 2rem 0;
@@ -48,14 +49,7 @@ main#projets {
             transition: $transition;
             // Mix blend
             background-color: $white;
-            // Bordures
-            border-top: $border;
-            padding: 0 1.5rem;
-
-            &:last-child {
-                border-bottom: $border;
-            }
-
+         
             a {
                 transition: $transition;
                 //  Hover : Liens cachés

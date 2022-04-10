@@ -66,12 +66,11 @@ footer#contact {
     }
 
     //-------------------------
-    // Responsive : Menu burger
+    // Responsive
     //-------------------------
     @include responsive("md-desktop") {
         min-height: inherit;
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
 
         p:first-child {
             font-size: inherit;
@@ -80,7 +79,19 @@ footer#contact {
 
         div {
             hr {
-                margin: 2rem 0;
+                margin: 1.5rem 0;
+            }
+
+            article {
+                    margin-bottom: 0;
+                ul {
+                    li {
+                        margin-bottom: 1rem;
+                    }
+                }
+                p{
+                    margin-bottom: 1.5rem;
+                }
             }
         }
     }

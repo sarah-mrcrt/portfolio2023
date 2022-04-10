@@ -1,40 +1,21 @@
-// actif
-main {
-    header.entete {
-        // Marges
-        padding: $marge-header 0;
-        // Fond
-        background-color: $black;
-        // Flex
-        display: flex;
-        justify-content: space-around;
-
-        @for $i from 1 through 6 {
-
-            p,
-            h#{$i} {
-                color: $white;
-            }
-        }
-    }
-}
+// -----------------------------------------------------------------------------
+// Page : SERVICES
+// -----------------------------------------------------------------------------
 
 main#services {
     section {
-
-        // margin: 0 5%;
         article {
-            // Bordures
-            border-top: $border;
-            border-bottom: $border;
+
             // Flex
             display: flex;
             justify-content: space-between;
             align-items: center;
             // Taille
-            width: $container-sm;
+            // width: $container-sm;
+            width: 95%;
             margin: auto;
-            ;
+            padding: 0 2%;
+
 
             p:first-child {
                 font-size: 8rem;
@@ -49,7 +30,37 @@ main#services {
                 margin-right: 2%;
             }
         }
-    }
 
-    margin-bottom: 2%;
+        //-------------------------
+        // Responsive
+        //-------------------------
+        @include responsive("sm-phone") {
+            article {
+                padding: 1rem;
+                flex-wrap: wrap;
+
+                p:first-child {
+                    display: none;
+                }
+
+                div {
+                    width: 100%;
+                    margin: auto;
+
+                    h2 {
+                        // Marges
+                        margin-bottom: .5rem;
+
+                        &:before {
+                            // Taille
+                            width: 100%;
+                            // Incrémentation titre : 1
+                            counter-increment: numero-titre;
+                            content: "0"counter(numero-titre)" - ";
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

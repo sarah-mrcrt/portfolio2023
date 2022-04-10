@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// HEADER dans le MAIN communs aux pages de services et projets
+// -----------------------------------------------------------------------------
+
+main {
+    header.entete-pages {
+        // Marges
+        padding: 7rem 0;
+        // Fond
+        background-color: $black;
+        // Flex
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        @for $i from 1 through 3 {
+
+            p,
+            h#{$i} {
+                color: $white;
+            }
+        }
+
+        div {
+            h2 {
+                font-size: 1.3rem;
+                margin-bottom: 0.4rem;
+                font-weight: $font-weight-bold;
+            }
+
+            h3 {
+                text-transform: lowercase;
+            }
+        }
+
+  //-------------------------
+    // Responsive
+    //-------------------------
+        @include responsive("md-desktop") {
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+
+            div {
+                padding-bottom: 2rem;
+
+                h2 {
+                    margin: 0;
+                }
+            }
+
+            div,
+            p {
+                width: 100%;
+            }
+
+        }
+    }
+
+    section.article-bordered {
+        // background-color: red;
+        // Marges
+        margin: 3% 0;
+
+        article {
+            // Bordures 
+            border-top: $border;
+            padding: 0 1.5rem;
+
+            &:last-child {
+                border-bottom: $border;
+            }
+        }
+    }
+}

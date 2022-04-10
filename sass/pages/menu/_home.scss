@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
+// Page : ACCUEIL
 // -----------------------------------------------------------------------------
+
 main#home {
     section#accueil {
         // Marges
@@ -36,7 +37,7 @@ main#home {
         }
 
         //-------------------------
-        // Responsive : Menu burger
+        // Responsive
         //-------------------------
         @include responsive("lg-desktop") {
             width: inherit;
@@ -101,7 +102,7 @@ main#home {
         }
 
         //-------------------------
-        // Responsive : Menu burger
+        // Responsive
         //-------------------------
         @include responsive("md-desktop") {
             article {
@@ -172,7 +173,7 @@ main#home {
         }
 
         //-------------------------
-        // Responsive : Menu burger
+        // Responsive
         //-------------------------
         @include responsive("lg-desktop") {
             article {
@@ -327,7 +328,7 @@ main#home {
         }
 
         //-------------------------
-        // Responsive : Menu burger
+        // Responsive
         //-------------------------
         @include responsive("md-desktop") {
             article {

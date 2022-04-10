@@ -18,6 +18,9 @@ header#header {
     // Centrer
     left: 50%;
     transform: translateX(-50%);
+    // Marge
+    padding-top: .25rem;
+
 
     h1 {
         a {
@@ -186,6 +189,8 @@ header#header {
         width: 100%;
         // Différence
         mix-blend-mode: difference;
+        // Marge
+        padding-top: .25rem;
 
         span i {
             font-size: 2rem;

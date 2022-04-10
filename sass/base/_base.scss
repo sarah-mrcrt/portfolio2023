@@ -1,11 +1,8 @@
 // -----------------------------------------------------------------------------
 // Styles très basiques
 // -----------------------------------------------------------------------------
-// Mixin : responsve ok ?
-// header : mix blend mode
-// metadonnés
-/*************** Document ***************/
 
+/*************** Document ***************/
 * {
   margin: 0;
   padding: 0;
@@ -30,33 +27,13 @@ body {
   scroll-behavior: smooth;
   // Container
   @extend .centered;
+  // Incrémentation titre : 0
+  counter-reset: numero-titre;
 
   main {
     max-width: 100vw;
-    // width: $container-sm;
-    // overflow-x: hidden;
-    // @extend .centered;
     margin-left: auto;
   }
-
-  //   // 576px window width and more
-  // @include sm-phone {
-  //   background-color: pink;
-  // }
-  // @include responsive('xl-widescreen') {
-  //   background-color: pink;
-  // }
-
-
-  // @include responsive('lg-desktop') {
-  //   background-color: red;
-  // }
-  // @include responsive('md-tablet') {
-  //   background-color: green;
-  // }
-  // @include responsive('sm-phone') {
-  //   background-color: blue;
-  // }
 }
 
 /*************** Éléments visuels  ***************/
@@ -78,7 +55,7 @@ a {
 
 @for $i from 1 through 6 {
   h#{$i} {
-    color: black;
+    color: $black;
   }
 }
 
@@ -124,18 +101,6 @@ h3 {
   width: 100%;
 }
 
-// .container-sm {
-//   margin: 0 auto;
-//   // padding-right: 1rem;
-//   // padding-left: 1rem;
-//   width: 95%;
-// }
-
-
 strong {
   font-weight: $font-weight-bold;
 }
-
-// .container-sm{
-//    width: 95%;
-// }

@@ -1,0 +1,22 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sarah Mauriaucourt",
+    "jobTitle": "Etudiante en Design Graphique et d'Interaction",
+    "url": "https://www.sarahmauriaucourt.fr",
+    "sameAs": [
+        "https://www.linkedin.com/in/sarahmauriaucourt",
+        "https://www.behance.net/sarahmauriaucourt",
+        "https://www.instagram.com/sarahmrcrt_photo/",
+        "http://plus.google.com/your_profile"
+    ],
+    "contactPoint": {
+        "@type": "ContatPoint",
+        "email": "mauriaucourt.sarah@gmail.com",
+        "telephone": "+33642703078",
+        "contactType": "Contact professionnel"
+    },
+    "alumniOf": "Université de Valenciennes",
+    "nationality": "Française",
+    "image": "../ressources/images/sarah.jpg"
+}
