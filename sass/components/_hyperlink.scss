@@ -1,5 +1,6 @@
 a {
     @include links($text-color, $hover-color);
+    transition: $transition;
 }
 
 .link {
@@ -21,5 +22,3 @@ a {
         mix-blend-mode: difference;
     }
 }
-
-

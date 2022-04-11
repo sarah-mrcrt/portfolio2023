@@ -28,10 +28,11 @@ main#home {
             }
         }
 
-        figure {
+        picture {
             align-self: end;
 
-            img {
+            img,
+            source {
                 width: 100%;
             }
         }
@@ -46,7 +47,7 @@ main#home {
                 width: 79.5%;
             }
 
-            figure {
+            picture {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -59,7 +60,6 @@ main#home {
             }
         }
     }
-
 
     section#about {
         min-height: 100%;
@@ -169,6 +169,10 @@ main#home {
                 bottom: -27%;
                 mix-blend-mode: normal;
                 color: $black;
+
+                &:hover {
+                    color: $grey;
+                }
             }
         }
 
@@ -252,7 +256,6 @@ main#home {
 
                 a {
                     transition: $transition;
-                    // width: 33.33%;
                     overflow: hidden;
 
                     .arrow {
@@ -275,7 +278,8 @@ main#home {
                         height: fit-content;
                         height: 307px;
 
-                        img {
+                        img,
+                        source {
                             object-fit: cover;
                         }
 

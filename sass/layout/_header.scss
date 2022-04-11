@@ -133,10 +133,16 @@ header#header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                // Transition
+                transition: $transition;
 
                 &:hover {
+                    // Fond
                     background-color: $white;
+                    // Fonts
                     color: $black;
+                    // Transition
+                    transition: $transition;
 
                     i {
                         color: $black;
@@ -193,6 +199,7 @@ header#header {
         padding-top: .25rem;
 
         span i {
+            // Fonts
             font-size: 2rem;
             color: $white;
         }

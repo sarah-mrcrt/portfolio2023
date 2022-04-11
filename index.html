@@ -2,15 +2,15 @@
 <html lang="fr-FR">
 
     <head>
-        <!--------- Encodage --------->
+        <!-- ------- Encodage ------- -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
-        <!--------- Référencement --------->
+        <!-- ------- Référencement ------- -->
         <meta name="robots" content="index, follow, archive" />
 
-        <!---------  Open Graph Meta Tags --------->
+        <!-- -------  Open Graph Meta Tags ------- -->
         <!-- HTML Meta Tags -->
         <title>Accueil | Sarah Mauriaucourt | Portfolio</title>
         <meta name="description"
@@ -28,7 +28,6 @@
         <meta property="og:image:width" content="1280">
         <meta property="og:image:height" content="720">
         <meta property="og:image:type" content="image/png">
-        <!-- <meta property="og:video" content="https://www.youtube.com/watch?v=a7aHT80NpNg"> -->
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta property="twitter:domain" content="sarahmauriaucourt.fr">
@@ -38,7 +37,7 @@
             content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
         <meta name="twitter:image" content="./images/Sarah_Mauriaucourt.png">
 
-        <!---------  Favicon --------->
+        <!-- -------  Favicon ------- -->
         <link rel="apple-touch-icon" sizes="180x180" href="./images/icones/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./images/icones/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./images/icones/favicon-16x16.png">
@@ -49,19 +48,19 @@
         <meta name="msapplication-config" content="./images/icones/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
-        <!---------  Font awesome --------->
+        <!-- -------  Font awesome ------- -->
         <script src="https://kit.fontawesome.com/a9438ed46f.js" crossorigin="anonymous"></script>
 
-        <!---------  Stylesheet --------->
+        <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="./css/main.min.css" />
     </head>
 
     <body>
-        <!--------- HEADER --------->
+        <!-- ------- HEADER ------- -->
         <!-- Header : permet de tricher sur la mise en forme lors du passage en menu burger. C'est à dire qu'il permet d'avoir le mode de fusion -->
         <header id="header-mix-blend-mode">
             <h1 class="col-2">
-                <a href="index.html">
+                <a href="index.html" aria-label="Logo">
                     <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="121" height="82" viewBox="0 0 121 82">
                         <g fill="none" stroke="#fff" stroke-width="1">
                             <rect width="90" height="27" stroke="none"></rect>
@@ -92,7 +91,7 @@
         <!-- Header principal -->
         <header id="header">
             <h1 class="col-2">
-                <a href="index.html">
+                <a href="index.html" aria-label="Logo">
                     <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="121" height="82" viewBox="0 0 121 82">
                         <g fill="none" stroke="#fff" stroke-width="1">
                             <rect width="90" height="27" stroke="none" />
@@ -130,24 +129,24 @@
             </nav>
             <ul class="col-2 social-media">
                 <li>
-                    <a href="https://www.linkedin.com/in/sarahmauriaucourt" rel="noopener" target="_blank"><i
-                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/sarahmauriaucourt" aria-label="Linkedin" rel="noopener"
+                        target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.behance.net/sarahmauriaucourt" rel="noopener" target="_blank"><i
-                            class="fa-brands fa-behance"></i></a>
+                    <a href="https://www.behance.net/sarahmauriaucourt" aria-label="Behance" rel="noopener"
+                        target="_blank"><i class="fa-brands fa-behance"></i></a>
                 </li>
-                <li><a href="https://www.instagram.com/sarahmrcrt_photo/" rel="noopener" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
+                <li><a href="https://www.instagram.com/sarahmrcrt_photo/" aria-label="Instagram" rel="noopener"
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </li>
                 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"
-                        rel="noopener"><i class="fa-solid fa-at"></i></a></li>
+                        aria-label="Mail" rel="noopener"><i class="fa-solid fa-at"></i></a></li>
             </ul>
             <!-- </menu> -->
             <span id="open"><i class="fas fa-bars"></i></span>
         </header>
 
-        <!--------- MAIN --------->
+        <!-- ------- MAIN ------- -->
         <main id="home">
             <!-- ACCUEIL -->
             <section id="accueil">
@@ -160,9 +159,11 @@
                         <li>cadreuse & monteuse</li>
                     </ul>
                 </article>
-                <figure class="col-6">
+                <picture class="col-6">
+                    <source srcset="./images/Sarah_Mauriaucourt.webp" type="image/webp">
+                    <source srcset="./images/Sarah_Mauriaucourt.png" type="image/png">
                     <img src="./images/Sarah_Mauriaucourt.png" alt="Photo de la tête de Sarah Mauriaucourt">
-                </figure>
+                </picture>
             </section>
 
             <!-- A PROPOS -->
@@ -196,6 +197,7 @@
                 <h2>Projets</h2>
                 <div>
                     <article>
+                    <!-- METTRE LIENS !! -->
                         <p>Vous n'avez pas le temps de découvrir l'ensemble de mes projets ? Pas de soucis, je vous ai
                             fait
                             une courte sélection en choisissant un projet dans chaque domaine où j'évolue. Sois le
@@ -207,21 +209,33 @@
                     <article>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./images/2021_audio_player.jpg" alt="Audio Player est un projet Web">
+                                <picture>
+                                    <source srcset="./images/2021_audio_player.webp" type="image/webp">
+                                    <source srcset="./images/2021_audio_player.jpg" type="image/jpg">
+                                    <img src="./images/2021_audio_player.jpg" alt="Audio Player est un projet Web">
+                                </picture>
                                 <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Web</figcaption>
                             </figure>
                         </a>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./images/2021_grilles.jpg" alt="Grilles est un projet Print">
+                                <picture>
+                                    <source srcset="./images/2021_grilles.webp" type="image/webp">
+                                    <source srcset="./images/2021_grilles.jpg" type="image/jpg">
+                                    <img src="./images/2021_grilles.jpg" alt="Grilles est un projet Print">
+                                </picture>
                                 <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Print</figcaption>
                             </figure>
                         </a>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./images/2021_now.jpg" alt="Now est un projet Audiovisuel">
+                                <picture>
+                                    <source srcset="./images/2021_now.webp" type="image/webp">
+                                    <source srcset="./images/2021_now.jpg" type="image/jpg">
+                                    <img src="./images/2021_now.jpg" alt="Now est un projet Audiovisuel">
+                                </picture>
                                 <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Audiovisuel</figcaption>
                             </figure>
@@ -231,18 +245,22 @@
             </section>
         </main>
 
-        <!--------- FOOTER --------->
+        <!-- ------- FOOTER ------- -->
         <footer id="contact">
-            <p>Je suis là pour vous ! Envoyer un <a class="link">mail</a> ou <a class="link">appelez-moi</a>.</p>
+            <p>Je suis là pour vous ! Envoyer un <a class="link"
+                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"
+                    rel="noopener">mail</a> ou <a class="link"
+                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"
+                    rel="noopener">appelez-moi</a>.</p>
             <div>
                 <hr>
                 <article>
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" rel="noopener"
+                        <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" aria-label="Linkedin" rel="noopener"
                                 target="_blank">Linkedin</a></li>
-                        <li><a href="https://www.behance.net/sarahmauriaucourt" rel="noopener"
+                        <li><a href="https://www.behance.net/sarahmauriaucourt" aria-label="Behance" rel="noopener"
                                 target="_blank">Behance</a></li>
-                        <li><a href="https://www.instagram.com/sarahmrcrt_photo/" rel="noopener"
+                        <li><a href="https://www.instagram.com/sarahmrcrt_photo/" aria-label="Instagram" rel="noopener"
                                 target="_blank">Instagram</a></li>
                     </ul>
                     <p>@ 2022 | Sarah Mauriaucourt. Tous droits réservés.</p>
@@ -250,7 +268,7 @@
             </div>
         </footer>
 
-        <!--------- Scripts --------->
+        <!-- ------- Scripts ------- -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="./js/main.min.js"></script>

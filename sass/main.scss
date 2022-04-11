@@ -13,20 +13,14 @@
 @import 'layout/header', 'layout/footer', 'layout/grid';
 
 // 5. Components
-@import 'components/hyperlink', 'components/button',
-'components/filter';
+@import 'components/hyperlink', 'components/button';
 
 // 6. Page-specific styles
 @import 'pages/menu/home', 'pages/menu/_commun_serv_ces_projets', 'pages/menu/services', 'pages/menu/projets', 'pages/projet';
 
-// projets + projets
-// Pb: hover header
-// services: hover
-// Changer image + alt
+// responsive: projets (picture + a) + projet (différentes pages)
+// hover : header txt
+// optimiser css / bonnes img
+// Json-LD
 
-// animation / ranger / optimiser
-// Projet individuel + openOGL 
-// Json-LD + SEO + JS
-
-
-// Seo : convert to webp + minifier js + minifier html ? + nom html ? + différentes pages 
+// final : revoir responsive, liens, lighthouse, w3c
