@@ -1,46 +1,64 @@
-<!doctype html>
-<html lang="fr" xmlns:og="http://ogp.me/ns#">
+<!DOCTYPE html>
+<html lang="fr-FR">
 
     <head>
-        <!-- Encondage -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Expérience utilisateur -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <!-- Référencement-->
-        <title>Sarah Mauriaucourt | Portfolio</title>
-        <meta name="description"
-            content="Je m'appelle Sarah Mauriaucourt, je suis étudiante dans le secteur du multimédia et du numérique. Découvrez mes travaux en communication, audiovisuel et web au travers de mon portfolio 👈.">
-        <meta name="keywords" content="portfolio, multimedia, audiovisuel, communication, web, mmi">
-        <meta name="copyright" content="© Sarah Mauriaucourt" />
+        <!--------- Encodage --------->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+        <!--------- Référencement --------->
         <meta name="robots" content="index, follow, archive" />
-        <!-- OpenGraphic for SocailMedia -->
-        <!-- website -->
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Sarah Mauriaucourt" />
-        <meta property="og:url" content="https://sarahmauriaucourt.fr" />
-        <meta property="og:title" content="Sarah&nbsp;Mauriaucourt — Portfolio d'une étudiante&nbsp;en&nbsp;multimédia">
+
+        <!---------  Open Graph Meta Tags --------->
+        <!-- HTML Meta Tags -->
+        <title>Accueil | Sarah Mauriaucourt | Portfolio</title>
+        <meta name="description"
+            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+        <meta name="author" content="Sarah Mauriaucourt">
+        <!-- Facebook Meta Tags -->
+        <meta property="og:title" content="Accueil | Sarah Mauriaucourt | Portfolio">
+        <meta property="og:site_name" content="Sarah Mauriaucourt | Portfolio">
+        <meta property="og:url" content="https://sarahmauriaucourt.fr">
         <meta property="og:description"
-            content="Je m'appelle Sarah Mauriaucourt, je suis étudiante dans le secteur du multimédia et du numérique. Découvrez mes travaux en communication, audiovisuel et web au travers de mon portfolio 👈.">
-        <meta property="og:locale" content="fr_FR" />
-        <!-- audiovisuel -->
-        <meta property="og:video" content="https://www.youtube.com/watch?v=a7aHT80NpNg">
-        <!-- Linkedin -->
-        <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Sarah Mauriaucourt" />
-        <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
-        <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://sarahmauriaucourt.fr" />
-        <!-- Favicon -->
+            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:image" content="./images/Miniature_Open_Graph.jpg">
+        <meta property="og:image:width" content="1280">
+        <meta property="og:image:height" content="720">
+        <meta property="og:image:type" content="image/png">
+        <!-- <meta property="og:video" content="https://www.youtube.com/watch?v=a7aHT80NpNg"> -->
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="sarahmauriaucourt.fr">
+        <meta property="twitter:url" content="https://sarahmauriaucourt.fr/">
+        <meta name="twitter:title" content="Accueil | Sarah Mauriaucourt | Portfolio">
+        <meta name="twitter:description"
+            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+        <meta name="twitter:image" content="./images/Sarah_Mauriaucourt.png">
 
-        <!-- Font awesome -->
+        <!---------  Favicon --------->
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/icones/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/icones/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/icones/favicon-16x16.png">
+        <link rel="manifest" href="./images/icones/site.webmanifest">
+        <link rel="mask-icon" href="./images/icones/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="./images/icones/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="./images/icones/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <!---------  Font awesome --------->
         <script src="https://kit.fontawesome.com/a9438ed46f.js" crossorigin="anonymous"></script>
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="./css/main.min.css" />
 
+        <!---------  Stylesheet --------->
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
 
     <body>
-
+        <!--------- HEADER --------->
+        <!-- Header : permet de tricher sur la mise en forme lors du passage en menu burger. C'est à dire qu'il permet d'avoir le mode de fusion -->
         <header id="header-mix-blend-mode">
             <h1 class="col-2">
                 <a href="index.html">
@@ -71,6 +89,7 @@
             <span id="closee"><i class="fas fa-bars" aria-hidden="true"></i></span>
         </header>
 
+        <!-- Header principal -->
         <header id="header">
             <h1 class="col-2">
                 <a href="index.html">
@@ -110,24 +129,27 @@
                 </ul>
             </nav>
             <ul class="col-2 social-media">
-                <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" target="_blank"><i
+                <li>
+                    <a href="https://www.linkedin.com/in/sarahmauriaucourt" rel="noopener" target="_blank"><i
                             class="fa-brands fa-linkedin-in"></i></a>
                 </li>
-                <li><a href="https://www.behance.net/sarahmauriaucourt" target="_blank"><i
+                <li>
+                    <a href="https://www.behance.net/sarahmauriaucourt" rel="noopener" target="_blank"><i
                             class="fa-brands fa-behance"></i></a>
                 </li>
-                <li><a href="https://www.instagram.com/sarahmrcrt_photo/" target="_blank"><i
+                <li><a href="https://www.instagram.com/sarahmrcrt_photo/" rel="noopener" target="_blank"><i
                             class="fa-brands fa-instagram"></i></a>
                 </li>
-                <li><a
-                        href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"><i
-                            class="fa-solid fa-at"></i></a></li>
+                <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%75%72%69%61%75%63%6F%75%72%74%2E%73%61%72%61%68%40%67%6D%61%69%6C%2E%63%6F%6D"
+                        rel="noopener"><i class="fa-solid fa-at"></i></a></li>
             </ul>
             <!-- </menu> -->
             <span id="open"><i class="fas fa-bars"></i></span>
         </header>
 
+        <!--------- MAIN --------->
         <main id="home">
+            <!-- ACCUEIL -->
             <section id="accueil">
                 <article class="col-6">
                     <h3>Hey, je suis Sarah Mauriaucourt</h3>
@@ -139,10 +161,11 @@
                     </ul>
                 </article>
                 <figure class="col-6">
-                    <img src="./ressources/images/Sarah_Mauriaucourt.png" alt="Photo de la tête de Sarah Mauriaucourt">
+                    <img src="./images/Sarah_Mauriaucourt.png" alt="Photo de la tête de Sarah Mauriaucourt">
                 </figure>
             </section>
 
+            <!-- A PROPOS -->
             <section id="about">
                 <h2>À propos</h2>
                 <article>
@@ -151,10 +174,11 @@
                         de 3 mois dans la conception et le développement web. J'aime me renouveler en explorant de
                         nouvelles techniques, de nouveaux styles, de nouvelles pistes. Retrouvez sur ce portfolio mes
                         travaux !</p>
-                    <a href="./ressources/MAURIAUCOURT_SARAH-CV.pdf" class="btn" target="_blank">CV Print</a>
+                    <a href="./images/Sarah_Mauriaucourt_CV.pdf " class="btn" target="_blank">CV Print</a>
                 </article>
             </section>
 
+            <!-- SERVICES -->
             <section id="services">
                 <h2>Services</h2>
                 <article>
@@ -167,6 +191,7 @@
                 </article>
             </section>
 
+            <!-- PROJETS -->
             <section id="projets">
                 <h2>Projets</h2>
                 <div>
@@ -182,22 +207,22 @@
                     <article>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
-                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
+                                <img src="./images/2021_audio_player.jpg" alt="Audio Player est un projet Web">
+                                <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Web</figcaption>
                             </figure>
                         </a>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
-                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
+                                <img src="./images/2021_grilles.jpg" alt="Grilles est un projet Print">
+                                <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Print</figcaption>
                             </figure>
                         </a>
                         <a href="projet.html" class="col-5">
                             <figure>
-                                <img src="./ressources/images/2021_splash_screen_watermelon.jpg" alt="Web">
-                                <img class="arrow" src="./ressources/images/fleche.svg" alt="Flèche">
+                                <img src="./images/2021_now.jpg" alt="Now est un projet Audiovisuel">
+                                <img class="arrow" src="./images/fleche.svg" alt="Symbole d'une flèche">
                                 <figcaption>Audiovisuel</figcaption>
                             </figure>
                         </a>
@@ -206,26 +231,29 @@
             </section>
         </main>
 
+        <!--------- FOOTER --------->
         <footer id="contact">
             <p>Je suis là pour vous ! Envoyer un <a class="link">mail</a> ou <a class="link">appelez-moi</a>.</p>
             <div>
                 <hr>
                 <article>
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" target="_blank">Linkedin</a></li>
-                        <li><a href="https://www.behance.net/sarahmauriaucourt" target="_blank">Behance</a></li>
-                        <li><a href="https://www.instagram.com/sarahmrcrt_photo/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/sarahmauriaucourt" rel="noopener"
+                                target="_blank">Linkedin</a></li>
+                        <li><a href="https://www.behance.net/sarahmauriaucourt" rel="noopener"
+                                target="_blank">Behance</a></li>
+                        <li><a href="https://www.instagram.com/sarahmrcrt_photo/" rel="noopener"
+                                target="_blank">Instagram</a></li>
                     </ul>
                     <p>@ 2022 | Sarah Mauriaucourt. Tous droits réservés.</p>
                 </article>
             </div>
         </footer>
 
-        <!-- Scripts -->
+        <!--------- Scripts --------->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
-
+        <script src="./js/main.min.js"></script>
     </body>
 
 </html>

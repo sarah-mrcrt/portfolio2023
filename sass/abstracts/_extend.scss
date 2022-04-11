@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // Sélecteurs centralisés et réutilisables
 // -----------------------------------------------------------------------------
+
 .blend-mode-difference {
     color: $white;
     mix-blend-mode: difference;
@@ -13,7 +14,6 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $white;
     mix-blend-mode: difference;
-
 }
 
 .centered {
@@ -29,7 +29,6 @@
     @extend .blend-mode-difference;
 
     li {
-
         // Pipe séparateur
         &:not(:last-child):after {
             display: inline-block;

@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://sarahmauriaucourt.fr/sitemap.xml
