@@ -53,10 +53,37 @@
 
         <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="./css/main.min.css" />
+
+        <!-- ------- JSON-LD, schema.org | Person ------- -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sarah Mauriaucourt",
+                "jobTitle": "Étudiante en Design Graphique et d'Interaction",
+                "url": "https://www.sarahmauriaucourt.fr",
+                "logo": "./images/icones/favicon-32x32.png"
+                "sameAs": [
+                    "https://www.linkedin.com/in/sarahmauriaucourt",
+                    "https://www.behance.net/sarahmauriaucourt",
+                    "https://www.instagram.com/sarahmrcrt_photo/"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "availableLanguage": ["fr-FR", "en-EN"],
+                    "email": "mauriaucourt.sarah@gmail.com",
+                    "telephone": "+33642703078",
+                    "contactType": "Contact professionnel"
+                },
+                "alumniOf": "Université de Valenciennes",
+                "nationality": "Française",
+                "image": "../images/sarah.jpg"
+            }
+        </script>
     </head>
 
     <body>
-                <!-- ------- HEADER ------- -->
+        <!-- ------- HEADER ------- -->
         <!-- Header : permet de tricher sur la mise en forme lors du passage en menu burger. C'est à dire qu'il permet d'avoir le mode de fusion -->
         <header id="header-mix-blend-mode">
             <h1 class="col-2">
@@ -121,9 +148,9 @@
             <span id="close"><i class="fas fa-times"></i></span>
             <nav class="col-7 navigation-link">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="index.html#home">Accueil</a></li>
+                    <li><a href="services.html#services">Services</a></li>
+                    <li><a href="projets.html#projets">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>

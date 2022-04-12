@@ -3,12 +3,16 @@
 // -----------------------------------------------------------------------------
 
 main#projets {
+
+    //-------------------------
+    // BARRE DE FILTRE
+    //-------------------------
     aside.filter-buttons {
         // Element fixe
         position: fixed;
         right: 0;
-        bottom: 6%;
-        right: 2.5%;
+        bottom: 2%;
+        right: 2%;
         z-index: 6;
         // Fonts
         text-align: right;
@@ -18,10 +22,11 @@ main#projets {
                 // Fond
                 background-color: $white;
                 // Marges
-                padding: 0 1rem;
+                padding: 0 8%;
                 // Fonts
+                font-size: 84%;
+                font-weight: $font-weight-base;
                 text-transform: uppercase;
-                // font-size: 74%;
                 // Curseur
                 cursor: pointer;
 
@@ -33,6 +38,9 @@ main#projets {
         }
     }
 
+    //-------------------------
+    // PROJETS
+    //-------------------------
     section {
         a {
             // Flex
@@ -48,7 +56,8 @@ main#projets {
             // Mix blend
             background-color: $white;
 
-            picture, span {
+            picture,
+            span {
                 transition: $transition;
                 //  Hover : Liens cachés
                 opacity: 0;
@@ -84,7 +93,8 @@ main#projets {
             &:hover {
                 transition: $transition;
 
-                picture, span {
+                picture,
+                span {
                     transition: $transition;
                     opacity: 1;
                 }
@@ -92,6 +102,9 @@ main#projets {
         }
     }
 
+    //-------------------------
+    // Responsive
+    //-------------------------
     @include responsive("lg-desktop") {
         aside.filter-buttons {
             // Position
@@ -101,7 +114,7 @@ main#projets {
             width: $container-md;
             // Marge
             margin: auto;
-            padding: 3% 0;
+            padding-top: 3%;
 
             ul#filter-btns {
                 // Flex
@@ -110,8 +123,11 @@ main#projets {
                 justify-content: center;
 
                 li {
+                    // Fond
                     background: $white;
+                    // Bordure
                     border: .01rem solid $black;
+                    // Marge
                     padding: .5rem 1rem;
                 }
             }
@@ -121,11 +137,4 @@ main#projets {
             width: 100%;
         }
     }
-
-    // @include responsive("sm-phone") {
-    //     aside.filter-buttons {
-    //         position: relative;
-    //         top: auto;
-    //     }
-    // }
 }

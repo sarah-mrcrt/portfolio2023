@@ -25,10 +25,14 @@
 // Tags
 //-------------------------
 .tags {
+    // Flex
     display: flex;
+    flex-wrap: wrap;
+    // Mode de fusion
     @extend .blend-mode-difference;
 
     li {
+
         // Pipe séparateur
         &:not(:last-child):after {
             display: inline-block;

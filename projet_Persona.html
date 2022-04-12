@@ -53,6 +53,33 @@
 
         <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="./css/main.min.css" />
+
+        <!-- ------- JSON-LD, schema.org | Person ------- -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sarah Mauriaucourt",
+                "jobTitle": "Étudiante en Design Graphique et d'Interaction",
+                "url": "https://www.sarahmauriaucourt.fr",
+                "logo": "./images/icones/favicon-32x32.png"
+                "sameAs": [
+                    "https://www.linkedin.com/in/sarahmauriaucourt",
+                    "https://www.behance.net/sarahmauriaucourt",
+                    "https://www.instagram.com/sarahmrcrt_photo/"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "availableLanguage": ["fr-FR", "en-EN"],
+                    "email": "mauriaucourt.sarah@gmail.com",
+                    "telephone": "+33642703078",
+                    "contactType": "Contact professionnel"
+                },
+                "alumniOf": "Université de Valenciennes",
+                "nationality": "Française",
+                "image": "../images/sarah.jpg"
+            }
+        </script>
     </head>
 
     <body>
@@ -121,9 +148,9 @@
             <span id="close"><i class="fas fa-times"></i></span>
             <nav class="col-7 navigation-link">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="index.html#home">Accueil</a></li>
+                    <li><a href="services.html#services">Services</a></li>
+                    <li><a href="projets.html#projets">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -187,21 +214,32 @@
                     </div>
                 </article>
 
-                <figure>
-                    <img src="./ressources/images/2021_audio_player.jpg" alt="">
-                    <img src="./ressources/images/2021_audio_player.jpg" alt="">
-                </figure>
+                <picture>
+                    <source srcset="./images/2021_persona.webp" type="image/webp">
+                    <source srcset="./images/2021_persona.jpg" type="image/jpg">
+                    <img src="./images/2021_persona.jpg" alt="Persona est un projet Audiovisuel">
+                </picture>
 
-                <a class="btn">Découvrir</a>
+                <a href="https://www.behance.net/gallery/129927601/Persona-by-Ingmar-Bergman-Poster" class="btn"
+                    rel="noopener" target="_blank">Découvrir</a>
             </section>
 
             <nav id="pagination">
                 <figure>
-                    <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
+                    <picture>
+                        <source srcset="./images/2021_audio_player.webp" type="image/webp">
+                        <source srcset="./images/2021_audio_player.jpg" type="image/jpg">
+                        <img src="./images/2021_audio_player.jpg" alt="Audio est un projet Audiovisuel">
+                    </picture>
                     <figcaption>Précédent</figcaption>
                 </figure>
+
                 <figure>
-                    <img src="./ressources/images/2021_audio_player.jpg" alt="Web">
+                    <picture>
+                        <source srcset="./images/2021_audio_player.webp" type="image/webp">
+                        <source srcset="./images/2021_audio_player.jpg" type="image/jpg">
+                        <img src="./images/2021_audio_player.jpg" alt="Audio est un projet Audiovisuel">
+                    </picture>
                     <figcaption>Suivant</figcaption>
                 </figure>
             </nav>
@@ -229,6 +267,31 @@
                 </article>
             </div>
         </footer>
+
+        <!-- ------- JSON-LD, schema.org | Article ------- -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "./projet_Persona.html"
+                },
+                "headline": "Persona d'Ingar Bergman",
+                "image": [
+                    "../images/persona.jpg",
+                    "../images/persona2.jpg"
+                ],
+                "datePublished": "2019-02-06T08:00:00+08:00",
+                "dateModified": "2019-02-08T09:20:00+08:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Mauriaucourt",
+                    "url": "https://sarahmauriaucourt.fr/"
+                },
+                "keywords": "Projet, Print, Affiche"
+            }
+        </script>
 
         <!-- ------- Scripts ------- -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"

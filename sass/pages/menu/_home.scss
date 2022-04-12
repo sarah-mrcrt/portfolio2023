@@ -3,6 +3,10 @@
 // -----------------------------------------------------------------------------
 
 main#home {
+
+    //-------------------------
+    // ACCUEIL
+    //-------------------------
     section#accueil {
         // Marges
         margin-left: auto;
@@ -61,6 +65,9 @@ main#home {
         }
     }
 
+    //-------------------------
+    // A PROPOS
+    //-------------------------
     section#about {
         min-height: 100%;
         border-top: $border;
@@ -132,6 +139,9 @@ main#home {
         }
     }
 
+    //-------------------------
+    // SERVICES
+    //-------------------------
     section#services {
         position: relative;
 
@@ -211,6 +221,9 @@ main#home {
         }
     }
 
+    //-------------------------
+    // PROJETS
+    //-------------------------
     section#projets {
         width: 90%;
         margin-bottom: 10%;

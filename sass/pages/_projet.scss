@@ -20,18 +20,26 @@ main#projet {
         padding: 1rem 0;
 
         header#projets-titre {
+            // Marges
+            padding-top: 2rem;
             // Bordures
             border-top: $border;
+
             // Marges
             // padding: 2rem 0;
+            ul,
+            li {
+                color: #fff;
+            }
         }
 
         // https://angrytools.com/css-grid/
         article#projet-info {
+            // Marges
+            padding-bottom: 2rem;
             // Bordures
             border-bottom: $border;
             // Marges
-            // padding: 2rem 0;
             // Grid
             display: grid;
             grid-template-rows: repeat(2, 1fr);
@@ -93,10 +101,12 @@ main#projet {
         }
 
         .btn {
-            position: fixed;
-            z-index: 1;
-            bottom: 0;
-            right: 0;
+                 // Element fixe
+        position: fixed;
+        right: 0;
+        bottom: 2%;
+        right: 2%;
+        z-index: 6;
         }
     }
 

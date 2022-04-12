@@ -53,6 +53,33 @@
 
         <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="./css/main.min.css" />
+
+        <!-- ------- JSON-LD, schema.org | Person ------- -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sarah Mauriaucourt",
+                "jobTitle": "Étudiante en Design Graphique et d'Interaction",
+                "url": "https://www.sarahmauriaucourt.fr",
+                "logo": "./images/icones/favicon-32x32.png"
+                "sameAs": [
+                    "https://www.linkedin.com/in/sarahmauriaucourt",
+                    "https://www.behance.net/sarahmauriaucourt",
+                    "https://www.instagram.com/sarahmrcrt_photo/"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "availableLanguage": ["fr-FR", "en-EN"],
+                    "email": "mauriaucourt.sarah@gmail.com",
+                    "telephone": "+33642703078",
+                    "contactType": "Contact professionnel"
+                },
+                "alumniOf": "Université de Valenciennes",
+                "nationality": "Française",
+                "image": "../images/sarah.jpg"
+            }
+        </script>
     </head>
 
     <body>
@@ -121,9 +148,9 @@
             <span id="close"><i class="fas fa-times"></i></span>
             <nav class="col-7 navigation-link">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="index.html#home">Accueil</a></li>
+                    <li><a href="services.html#services">Services</a></li>
+                    <li><a href="projets.html#projets">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -197,7 +224,7 @@
                 <h2>Projets</h2>
                 <div>
                     <article>
-                    <!-- METTRE LIENS !! -->
+                        <!-- METTRE LIENS !! -->
                         <p>Vous n'avez pas le temps de découvrir l'ensemble de mes projets ? Pas de soucis, je vous ai
                             fait
                             une courte sélection en choisissant un projet dans chaque domaine où j'évolue. Sois le

@@ -50,6 +50,33 @@
 
         <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="./css/main.min.css" />
+
+        <!-- ------- JSON-LD, schema.org | Person ------- -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sarah Mauriaucourt",
+                "jobTitle": "Étudiante en Design Graphique et d'Interaction",
+                "url": "https://www.sarahmauriaucourt.fr",
+                "logo": "./images/icones/favicon-32x32.png"
+                "sameAs": [
+                    "https://www.linkedin.com/in/sarahmauriaucourt",
+                    "https://www.behance.net/sarahmauriaucourt",
+                    "https://www.instagram.com/sarahmrcrt_photo/"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "availableLanguage": ["fr-FR", "en-EN"],
+                    "email": "mauriaucourt.sarah@gmail.com",
+                    "telephone": "+33642703078",
+                    "contactType": "Contact professionnel"
+                },
+                "alumniOf": "Université de Valenciennes",
+                "nationality": "Française",
+                "image": "../images/sarah.jpg"
+            }
+        </script>
     </head>
 
     <body>
@@ -118,9 +145,9 @@
             <span id="close"><i class="fas fa-times"></i></span>
             <nav class="col-7 navigation-link">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="index.html#home">Accueil</a></li>
+                    <li><a href="services.html#services">Services</a></li>
+                    <li><a href="projets.html#projets">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -169,7 +196,7 @@
             </aside>
 
             <section class="col-10 portfolio-gallery article-bordered">
-                <a href="./projet.html" class="item" data-id="Print">
+                <a href="./projet_Persona.html" class="item" data-id="Print">
                     <header>
                         <h2>Persona d'Ingmar Bergman</h2>
                         <ul class="tags">
@@ -185,7 +212,39 @@
                     </picture>
                 </a>
 
-                <a href="./projet.html" class="item" data-id="Audiovisuel">
+                <a href="./projet_Persona.html" class="item" data-id="Digital">
+                    <header>
+                        <h2>Audio Player</h2>
+                        <ul class="tags">
+                            <li>Digital</li>
+                            <li>Affiche</li>
+                        </ul>
+                    </header>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2021_audio_player.webp" type="image/webp">
+                        <source srcset="./images/2021_audio_player.jpg" type="image/jpg">
+                        <img src="./images/2021_audio_player.jpg" alt="Image du projet : Audio Player">
+                    </picture>
+                </a>
+
+                <a href="./projet_Persona.html" class="item" data-id="Print">
+                    <header>
+                        <h2>Grilles</h2>
+                        <ul class="tags">
+                            <li>Print</li>
+                            <li>Affiche</li>
+                        </ul>
+                    </header>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2021_grilles.webp" type="image/webp">
+                        <source srcset="./images/2021_grilles.jpg" type="image/jpg">
+                        <img src="./images/2021_grilles.jpg" alt="Image du projet : Grilles">
+                    </picture>
+                </a>
+
+                <a href="./projet_Persona.html" class="item" data-id="Audiovisuel">
                     <header>
                         <h2>NOW | Court-métrage</h2>
                         <ul class="tags">
@@ -201,7 +260,7 @@
                     </picture>
                 </a>
 
-                <a href="./projet.html" class="item" data-id="Print">
+                <a href="./projet_Persona.html" class="item" data-id="Print">
                     <header>
                         <h2>Lockbook</h2>
                         <ul class="tags">
@@ -218,7 +277,7 @@
                     </picture>
                 </a>
 
-                <a href="./projet.html" class="item" data-id="Digital">
+                <a href="./projet_Persona.html" class="item" data-id="Digital">
                     <header>
                         <h2>Mouud</h2>
                         <ul class="tags">
@@ -237,7 +296,7 @@
                     </picture>
                 </a>
 
-                <a href="./projet.html" class="item" data-id="Print">
+                <a href="./projet_Persona.html" class="item" data-id="Print">
                     <header>
                         <h2>Chella Man</h2>
                         <ul class="tags">

@@ -16,11 +16,10 @@
 @import 'components/hyperlink', 'components/button';
 
 // 6. Page-specific styles
-@import 'pages/menu/home', 'pages/menu/_commun_serv_ces_projets', 'pages/menu/services', 'pages/menu/projets', 'pages/projet';
+@import 'pages/menu/home', 'pages/menu/_commun_services_projets', 'pages/menu/services', 'pages/menu/projets', 'pages/projet';
 
-// responsive: projets + projet (ajout des différentes pages)
-// hover : header txt
-// optimiser css / bonnes img
-// Json-LD
+// responsive: projet (ajout des différentes pages)
+// hover : header txt + filter / footer padding
+// optimiser css
 
 // final : revoir responsive, liens, lighthouse, w3c

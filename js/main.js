@@ -6,7 +6,9 @@ jQuery(document).ready(function ($) {
     window.onresize = function (event) {
         // Il est nécessaire de recharger la page, lorsqu'on teste le responsive et qu'on passe au-dessus ou en dessous d'une largeur de 1024px. Sinon le menu burger ne fonctionne pas !
         // Actualisation automatique de la page lorsque la taille de la fenêtre change 
-        document.location.reload(true);
+        setTimeout(function () {
+            window.location.reload();
+        });
     }
 
     if (window.matchMedia("(max-width: 1024px)").matches) {
