@@ -4,10 +4,10 @@
 
 main#projets {
     aside.filter-buttons {
-        // element fixe
+        // Element fixe
         position: fixed;
         right: 0;
-        bottom: 12%;
+        bottom: 6%;
         right: 2.5%;
         z-index: 6;
         // Fonts
@@ -15,10 +15,15 @@ main#projets {
 
         ul#filter-btns {
             li {
+                // Fond
                 background-color: $white;
-                cursor: pointer;
+                // Marges
                 padding: 0 1rem;
+                // Fonts
                 text-transform: uppercase;
+                // font-size: 74%;
+                // Curseur
+                cursor: pointer;
 
                 &.active {
                     color: $white;
@@ -29,9 +34,7 @@ main#projets {
     }
 
     section {
-        article {
-            // Marges
-            // padding: 2rem 0;
+        a {
             // Flex
             display: flex;
             justify-content: space-between;
@@ -45,7 +48,7 @@ main#projets {
             // Mix blend
             background-color: $white;
 
-            a {
+            picture, span {
                 transition: $transition;
                 //  Hover : Liens cachés
                 opacity: 0;
@@ -66,7 +69,7 @@ main#projets {
                 }
             }
 
-            a.image {
+            picture {
                 // Positionnement
                 position: absolute;
                 top: 0;
@@ -81,7 +84,7 @@ main#projets {
             &:hover {
                 transition: $transition;
 
-                a {
+                picture, span {
                     transition: $transition;
                     opacity: 1;
                 }
@@ -91,15 +94,17 @@ main#projets {
 
     @include responsive("lg-desktop") {
         aside.filter-buttons {
-            padding: 3% 0;
-            position: sticky;
-            top: 100px;
+            // Position
+            position: relative;
             text-align: center;
-            // z-index: 6;
-            width: 100%;
-            // mettre container
+            // Taille
+            width: $container-md;
+            // Marge
+            margin: auto;
+            padding: 3% 0;
 
             ul#filter-btns {
+                // Flex
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -117,10 +122,10 @@ main#projets {
         }
     }
 
-    @include responsive("sm-phone") {
-        aside.filter-buttons {
-            position: relative;
-            top: auto;
-        }
-    }
+    // @include responsive("sm-phone") {
+    //     aside.filter-buttons {
+    //         position: relative;
+    //         top: auto;
+    //     }
+    // }
 }

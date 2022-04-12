@@ -13,15 +13,13 @@
         <!-- -------  Open Graph Meta Tags ------- -->
         <!-- HTML Meta Tags -->
         <title>Projets | Sarah Mauriaucourt | Portfolio</title>
-        <meta name="description"
-            content="Découvrez une sélection de mes meilleurs projets !">
+        <meta name="description" content="Découvrez une sélection de mes meilleurs projets !">
         <meta name="author" content="Sarah Mauriaucourt">
         <!-- Facebook Meta Tags -->
         <meta property="og:title" content="Projets | Sarah Mauriaucourt | Portfolio">
         <meta property="og:site_name" content="Sarah Mauriaucourt | Portfolio">
         <meta property="og:url" content="https://sarahmauriaucourt.fr">
-        <meta property="og:description"
-            content="Découvrez une sélection de mes meilleurs projets !">
+        <meta property="og:description" content="Découvrez une sélection de mes meilleurs projets !">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="fr_FR">
         <meta property="og:image" content="./images/Miniature_Open_Graph.jpg">
@@ -33,8 +31,7 @@
         <meta property="twitter:domain" content="sarahmauriaucourt.fr">
         <meta property="twitter:url" content="https://sarahmauriaucourt.fr/">
         <meta name="twitter:title" content="Projets | Sarah Mauriaucourt | Portfolio">
-        <meta name="twitter:description"
-            content="Découvrez une sélection de mes meilleurs projets !">
+        <meta name="twitter:description" content="Découvrez une sélection de mes meilleurs projets !">
         <meta name="twitter:image" content="./images/Sarah_Mauriaucourt.png">
 
         <!-- -------  Favicon ------- -->
@@ -56,7 +53,7 @@
     </head>
 
     <body>
-                <!-- ------- HEADER ------- -->
+        <!-- ------- HEADER ------- -->
         <!-- Header : permet de tricher sur la mise en forme lors du passage en menu burger. C'est à dire qu'il permet d'avoir le mode de fusion -->
         <header id="header-mix-blend-mode">
             <h1 class="col-2">
@@ -162,7 +159,7 @@
                         aider !</strong></p>
             </header>
 
-            <aside class="filter-buttons">
+            <aside class="filter-buttons col-2">
                 <ul id="filter-btns">
                     <li class="active filter" data-target="all">Tout</li>
                     <li class="filter" data-target="Digital">Digital</li>
@@ -172,7 +169,23 @@
             </aside>
 
             <section class="col-10 portfolio-gallery article-bordered">
-                <article class="item" data-id="Digital">
+                <a href="./projet.html" class="item" data-id="Print">
+                    <header>
+                        <h2>Persona d'Ingmar Bergman</h2>
+                        <ul class="tags">
+                            <li>Print</li>
+                            <li>Affiche</li>
+                        </ul>
+                    </header>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2021_persona.webp" type="image/webp">
+                        <source srcset="./images/2021_persona.jpg" type="image/jpg">
+                        <img src="./images/2021_persona.jpg" alt="Image du projet : Persona">
+                    </picture>
+                </a>
+
+                <a href="./projet.html" class="item" data-id="Audiovisuel">
                     <header>
                         <h2>NOW | Court-métrage</h2>
                         <ul class="tags">
@@ -180,72 +193,65 @@
                             <li>Design</li>
                         </ul>
                     </header>
-                    <a href="./projet.html" class="btn">Voir plus </a>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2021_now.webp" type="image/webp">
+                        <source srcset="./images/2021_now.jpg" type="image/jpg">
+                        <img src="./images/2021_now.jpg" alt="Image du projet : Now">
+                    </picture>
+                </a>
 
-                    <a href="./projet.html" class="image">
-                        <img src="./images/2021_audio_player.jpg" alt="Image du projet : Audio Player">
-                    </a>
-                </article>
-
-                <article class="item" data-id="Print">
+                <a href="./projet.html" class="item" data-id="Print">
                     <header>
-                        <h2>WSH WSH</h2>
+                        <h2>Lockbook</h2>
                         <ul class="tags">
-                            <li>Audiovisuel</li>
-                            <li>Design</li>
+                            <li>Print</li>
+                            <li>Photographie</li>
+                            <li>Confinement</li>
                         </ul>
                     </header>
-                    <a class="btn">Voir plus </a>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2020_lockbook.webp" type="image/webp">
+                        <source srcset="./images/2020_lockbook.jpg" type="image/jpg">
+                        <img src="./images/2020_lockbook.jpg" alt="Image du projet : Lockbook">
+                    </picture>
+                </a>
 
-                    <a class="image" href="./projet.html">
-                        <img src="./images/2021_audio_player.jpg" alt="Image du projet : Audio Player">
-                    </a>
-                </article>
-
-                <article class="item" data-id="Audiovisuel">
+                <a href="./projet.html" class="item" data-id="Digital">
                     <header>
-                        <h2>dd</h2>
+                        <h2>Mouud</h2>
                         <ul class="tags">
-                            <li>Audiovisuel</li>
-                            <li>Design</li>
+                            <li>Digital</li>
+                            <li>Web</li>
+                            <li>UI/UX</li>
+                            <li>Frontend</li>
+                            <li>Backend</li>
                         </ul>
                     </header>
-                    <a class="btn">Voir plus </a>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2020_mouud.webp" type="image/webp">
+                        <source srcset="./images/2020_mouud.jpg" type="image/jpg">
+                        <img src="./images/2020_mouud.jpg" alt="Image du projet : Mouud">
+                    </picture>
+                </a>
 
-                    <a class="image">
-                        <img src="./images/2021_splash_screen_watermelon.jpg" alt="">
-                    </a>
-                </article>
-
-                <article class="item" data-id="Audiovisuel">
+                <a href="./projet.html" class="item" data-id="Print">
                     <header>
-                        <h2>Flemme</h2>
+                        <h2>Chella Man</h2>
                         <ul class="tags">
-                            <li>Audiovisuel</li>
-                            <li>Design</li>
+                            <li>Print</li>
+                            <li>Design éditorial</li>
                         </ul>
                     </header>
-                    <a class="btn">Voir plus </a>
-
-                    <a class="image">
-                        <img src="./images/2021_audio_player.jpg" alt="Image du projet : Audio Player">
-                    </a>
-                </article>
-
-                <article class="item" data-id="Audiovisuel">
-                    <header>
-                        <h2>Flemme</h2>
-                        <ul class="tags">
-                            <li>Audiovisuel</li>
-                            <li>Design</li>
-                        </ul>
-                    </header>
-                    <a class="btn">Voir plus </a>
-
-                    <a class="image">
-                        <img src="./images/2021_audio_player.jpg" alt="Image du projet : Audio Player">
-                    </a>
-                </article>
+                    <span class="btn">Voir plus</span>
+                    <picture>
+                        <source srcset="./images/2018_chella_man.webp" type="image/webp">
+                        <source srcset="./images/2018_chella_man.jpg" type="image/jpg">
+                        <img src="./images/2018_chella_man.jpg" alt="Image du projet : Chella Man">
+                    </picture>
+                </a>
             </section>
         </main>
 
