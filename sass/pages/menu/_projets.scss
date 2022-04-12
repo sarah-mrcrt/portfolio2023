@@ -10,9 +10,9 @@ main#projets {
     aside.filter-buttons {
         // Element fixe
         position: fixed;
+        margin: $padding-container;
         right: 0;
         bottom: 2%;
-        right: 2%;
         z-index: 6;
         // Fonts
         text-align: right;
@@ -29,6 +29,13 @@ main#projets {
                 text-transform: uppercase;
                 // Curseur
                 cursor: pointer;
+                // Transition
+                transition: $transition;
+
+                &:hover {
+                    background-color: $grey;
+                    transition: $transition;
+                }
 
                 &.active {
                     color: $white;
@@ -110,6 +117,8 @@ main#projets {
             // Position
             position: relative;
             text-align: center;
+            // position: sticky;
+            // top: 5rem;
             // Taille
             width: $container-md;
             // Marge

@@ -65,7 +65,7 @@ main {
         article, .item {
             // Bordures 
             border-top: $border;
-            padding: 0 1.5rem;
+            padding: $padding-container;
 
             &:last-child {
                 border-bottom: $border;

@@ -39,6 +39,8 @@ $espace-texte: 10%;
 
 // 
 $marge-header: 5rem;
+$padding-container: 0 1.5rem;
+$padding-container2: 0 2%;
 
 //-------------------------
 // Bordure
@@ -64,5 +66,5 @@ $breakpoints: ( // Small tablets and large smartphones (landscape view)
     // Tablets and small desktops
     'lg-desktop': 1024px,
     // Large tablets and desktops
-    // 'xl-widescreen': 1200px
+    'xl-widescreen': 1200px
 ) !default;

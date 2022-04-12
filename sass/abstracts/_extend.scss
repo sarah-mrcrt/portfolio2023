@@ -32,7 +32,6 @@
     @extend .blend-mode-difference;
 
     li {
-
         // Pipe séparateur
         &:not(:last-child):after {
             display: inline-block;
