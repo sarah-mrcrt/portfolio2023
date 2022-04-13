@@ -1,3 +1,7 @@
+// -----------------------------------------------------------------------------
+// Styles liés aux hyperliens
+// -----------------------------------------------------------------------------
+
 a {
     @include links($text-color, $hover-color);
     transition: $transition;
@@ -6,6 +10,7 @@ a {
 .link {
     display: inline-block;
     padding: .2rem;
+    // Fonts
     font-weight: $font-weight-semibold;
     text-align: center;
     text-transform: uppercase;

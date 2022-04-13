@@ -1,3 +1,10 @@
+// -----------------------------------------------------------------------------
+// Déclarations réutilisables
+// -----------------------------------------------------------------------------
+
+//-------------------------
+// Liens
+//-------------------------
 @mixin links ($link, $hover) {
     & {
         color: $link;
@@ -8,20 +15,10 @@
     }
 }
 
-// // Small devices
-// @mixin sm {
-//    @media (min-width: #{$screen-sm-min}) {
-//        @content;
-//    }
-// }
-
 //-------------------------
 // Responsive
 //-------------------------
-/// Mixin to manage responsive breakpoints
 /// @author Kitty Giraudel
-/// @param {String} $breakpoint - Breakpoint name
-/// @require $breakpoints
 @mixin responsive($breakpoint) {
 
     // If the key exists in the map

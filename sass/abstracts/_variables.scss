@@ -2,50 +2,43 @@
 // Variables
 // -----------------------------------------------------------------------------
 
-
 //-------------------------
-// Valeur des couleurs
+// COULEURS
 //-------------------------
 // Base
 $black: black;
 $white: white;
 $grey: #8C8C8C;
-
-// Equivalent filter : https://codepen.io/sosuke/pen/Pjoqqp
-$black-svg: invert(92%) sepia(45%) saturate(8%) hue-rotate(263deg) brightness(112%) contrast(100%);
-$white-svg: invert(0%) sepia(10%) saturate(7472%) hue-rotate(258deg) brightness(109%) contrast(103%);
+// SVG, Equivalent filter : https://codepen.io/sosuke/pen/Pjoqqp
 $grey-svg: invert(58%) sepia(1%) saturate(954%) hue-rotate(47deg) brightness(96%) contrast(91%);
 
-//-------------------------
-// Type de couleur
-//-------------------------
+// Variables
 $bg-color : $white;
-$text-color : $black !default;
-$error-color : #ff0000 !default;
-$link-color : $black !default;
-$hover-color : $black !default;
-$active-color : $black !default;
+$text-color : $black;
+$hover-color : $black;
+
 
 //-------------------------
 // Marges
 //-------------------------
-// 
-$container-sm : 98%;
+// Taille
 $container-md : 90%;
 
-// 
+// Texte
 $espace-titre: 5%;
 $espace-texte: 10%;
 
-// 
+// Container
 $marge-header: 5rem;
 $padding-container: 0 1.5rem;
 $padding-container2: 0 2%;
+
 
 //-------------------------
 // Bordure
 //-------------------------
 $border: 2px solid $black;
+
 
 //-------------------------
 // Transition
@@ -56,15 +49,10 @@ $transition: all .5s ease-in-out;
 //-------------------------
 // Responsive
 //-------------------------
-$breakpoints: ( // Small tablets and large smartphones (landscape view)
-    // 'sm-phone': 320px,
-    'sm-phone': 630px,
-    // Small tablets (portrait view)
-    'md-tablet': 768px,
-    // Tablets and small desktops
-    'md-desktop': 992px,
-    // Tablets and small desktops
-    'lg-desktop': 1024px,
-    // Large tablets and desktops
-    'xl-widescreen': 1200px
-) !default;
+$breakpoints: (
+    'sm-phone': 630px, // Small tablets and large smartphones (landscape view)
+    'md-tablet': 768px, // Small tablets (portrait view)
+    'md-desktop': 992px, // Tablets and small desktops
+    'lg-desktop': 1024px, // Tablets and small desktops
+    'xl-widescreen': 1200px // Large tablets and desktops
+);

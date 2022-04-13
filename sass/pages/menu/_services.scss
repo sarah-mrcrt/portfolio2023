@@ -5,22 +5,22 @@
 main#services {
     section {
         article {
-
             // Flex
             display: flex;
             justify-content: space-between;
             align-items: center;
             // Taille
-            // width: $container-sm;
             width: 95%;
+            // Marges
             margin: auto;
             padding: 0 2%;
 
-
             p:first-child {
+                // Fonts
                 font-size: 8rem;
                 font-family: 'Lato', sans-serif;
                 font-weight: $font-weight-black;
+                // Marges
                 margin-left: 2%;
                 padding: 2rem 0;
             }

@@ -2,6 +2,9 @@
 // Sélecteurs centralisés et réutilisables
 // -----------------------------------------------------------------------------
 
+//-------------------------
+// Mode de fusion
+//-------------------------
 .blend-mode-difference {
     color: $white;
     mix-blend-mode: difference;
@@ -10,12 +13,6 @@
 //-------------------------
 // Marges
 //-------------------------
-.text-border {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: $white;
-    mix-blend-mode: difference;
-}
-
 .centered {
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +29,7 @@
     @extend .blend-mode-difference;
 
     li {
+
         // Pipe séparateur
         &:not(:last-child):after {
             display: inline-block;

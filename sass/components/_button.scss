@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
+// Styles liés au composant bouton
 // -----------------------------------------------------------------------------
+
 .btn {
 	// Fonts
 	font-weight: $font-weight-bold;
@@ -9,7 +10,7 @@
 	// Hover
 	transition: $transition;
 	@extend .blend-mode-difference;
-	    display: inline-block;
+	display: inline-block;
 
 	&:after {
 		// Pseudo element
@@ -24,9 +25,7 @@
 		// Zone de l'image
 		height: 3.3rem;
 		width: 4rem;
-		// Couleur 
-		// -webkit-filter: $black-svg;
-		// filter: $black-svg;
+		// Mode de fusion 
 		mix-blend-mode: difference;
 
 	}

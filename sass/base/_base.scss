@@ -1,8 +1,10 @@
 // -----------------------------------------------------------------------------
-// Styles très basiques
+// Styles très basiques : Propriétés par défaut de tous des éléments
 // -----------------------------------------------------------------------------
 
-/*************** Document ***************/
+//-------------------------
+// Document
+//-------------------------
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +27,7 @@ body {
   color: $white;
   // Scroll
   scroll-behavior: smooth;
-  // Container
+  // Marges
   @extend .centered;
   // Incrémentation titre : 0
   counter-reset: numero-titre;
@@ -36,31 +38,29 @@ body {
   }
 }
 
-/*************** Éléments visuels  ***************/
-a,
+//-------------------------
+// Elements visuels
+//-------------------------
+// Textes
 p,
 i,
 ul,
 li {
-  color: $black;
-  // mix-blend-mode: difference;
+  color: $text-color;
 }
 
 a {
   color: inherit;
-  // color: $link-color;
   text-decoration: none;
-}
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    color: $black;
-  }
 }
 
 ul,
 li {
   list-style-type: none;
+}
+
+strong {
+  font-weight: $font-weight-bold;
 }
 
 // Image fluide
@@ -74,34 +74,4 @@ svg {
   height: auto;
   height: 100%;
   vertical-align: middle;
-}
-
-.h2,
-h2 {
-  // OK RESPONSIVE
-  font-weight: $font-weight-black;
-  text-transform: uppercase;
-  font-size: clamp(1.75rem, 3vw, 2.1rem);
-}
-
-.h3,
-h3 {
-  // OK RESPONSIVE
-  font-weight: $font-weight-semibold;
-  font-size: clamp(2rem, calc(4vw + 1rem), 3rem);
-
-  @include responsive("sm-phone") {
-    font-size: 1.5rem;
-  }
-}
-
-.container-sm {
-  margin: 0 auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-strong {
-  font-weight: $font-weight-bold;
 }

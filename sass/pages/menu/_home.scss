@@ -18,7 +18,6 @@ main#home {
         align-items: center;
         justify-content: space-around;
 
-
         article {
             h3 {
                 margin-bottom: 2rem;
@@ -52,14 +51,18 @@ main#home {
             }
 
             picture {
+                // Position
                 position: absolute;
                 top: 0;
                 left: 0;
-                mix-blend-mode: luminosity;
-                width: 100%;
                 z-index: 0;
-                opacity: .3;
+                // Mode de fusion
+                mix-blend-mode: luminosity;
+                // Taille
+                width: 100%;
                 height: 100vh;
+                // Autres
+                opacity: .3;
                 pointer-events: none;
             }
         }
@@ -69,28 +72,37 @@ main#home {
     // A PROPOS
     //-------------------------
     section#about {
-        min-height: 100%;
+        // Bordures
         border-top: $border;
         border-left: $border;
         border-bottom: $border;
+        // Tailles
+        min-height: 100%;
         width: $container-md;
+        // Marges
         margin-left: auto;
+        // Flex
         display: flex;
         justify-content: center;
         flex-direction: column;
 
         h2 {
+            // Fond
             background-color: $white;
+            // Marges
             margin-left: -3%;
             margin-top: 2.5%;
             padding: 1rem 0;
         }
 
         article {
+            // Flex
             display: flex;
             justify-content: center;
             flex-direction: column;
+            // Marges
             margin: 0 0 4% 4%;
+            // Tailles
             width: 80%;
 
             h3 {
@@ -146,7 +158,9 @@ main#home {
         position: relative;
 
         h2 {
+            // Taille
             width: 32%;
+            // Marges
             margin-top: -2px;
             padding-left: $espace-titre;
         }
@@ -157,13 +171,15 @@ main#home {
         }
 
         article {
+            // Fond
             background-color: $black;
+            // Marges
+            width: 90%;
+            // Flex
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            // margin-left: auto;
-            width: 90%;
 
             p {
                 padding: 5% 10% 5% 0;
@@ -174,11 +190,13 @@ main#home {
             .btn {
                 align-self: end;
                 padding: 2rem;
-                background-color: $white;
-                position: absolute;
-                bottom: -27%;
+                // Mode de fusion
                 mix-blend-mode: normal;
                 color: $black;
+                background-color: $bg-color;
+                // Position
+                position: absolute;
+                bottom: -27%;
 
                 &:hover {
                     color: $grey;
@@ -225,13 +243,18 @@ main#home {
     // PROJETS
     //-------------------------
     section#projets {
+        // Taille
         width: 90%;
+        // Marges
         margin-bottom: 10%;
         @extend .centered;
 
         h2 {
+            // Bordure
             border-right: $border;
+            // Taille
             width: 88%;
+            // Marges
             padding-top: 5%
         }
 
@@ -239,7 +262,9 @@ main#home {
             @extend .centered;
 
             &:first-child {
+                // Marges
                 padding: 5% 7%;
+                // Flex
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
@@ -316,10 +341,12 @@ main#home {
                         height: 307px;
 
                         .arrow {
+                            // Flex
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             align-content: center;
+                            // Position/Taille
                             top: 50%;
                             left: 50%;
                             transform: translate(-50%, -50%);

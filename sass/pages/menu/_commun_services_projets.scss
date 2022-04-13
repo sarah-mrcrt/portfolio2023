@@ -62,7 +62,8 @@ main {
         // Marges
         margin: 3% 0;
 
-        article, .item {
+        article,
+        .item {
             // Bordures 
             border-top: $border;
             padding: $padding-container;

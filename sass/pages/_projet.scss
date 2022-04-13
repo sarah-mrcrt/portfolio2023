@@ -31,7 +31,6 @@ main#projet {
             }
         }
 
-        // https://angrytools.com/css-grid/
         article#projet-info {
             // Marges
             padding: 2.5rem 2%;
@@ -49,7 +48,7 @@ main#projet {
             position: relative;
             z-index: 8;
             // Fond
-            background-color: $white;
+            background-color: $bg-color;
 
             h3 {
                 font-size: inherit;
@@ -72,7 +71,6 @@ main#projet {
                 // Grid : FIN Positionnement
                 grid-row-end: 3;
                 grid-column-end: 2;
-
             }
 
             #projet-info-missions {
@@ -82,7 +80,6 @@ main#projet {
                 // Grid : FIN Positionnement
                 grid-row-end: 2;
                 grid-column-end: 4;
-
             }
 
             #projet-info-demarches {
@@ -176,7 +173,7 @@ main#projet {
         // Cacher les éléments qui sont en absolute
         position: relative;
         z-index: 8;
-        background-color: $white;
+        background-color: $bg-color;
         // Hover
         position: relative;
         // Flex
@@ -186,8 +183,6 @@ main#projet {
         overflow: hidden;
         // Marges
         padding: 0 5%;
-        // Fond
-        background-color: $white;
         // Fonts
         text-transform: uppercase;
         color: $black;
