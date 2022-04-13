@@ -117,7 +117,6 @@ main#projet {
                 // Grid
                 grid-template-rows: repeat(3, auto);
                 grid-template-columns: repeat(2, auto);
-                gap: 20px;
 
                 #projet-info-expertise {
                     // Grid : DEBUT Positionnement
@@ -234,9 +233,11 @@ main#projet {
             }
         }
 
-        #next {
+        #previous {
             margin-left: auto;
+        }
 
+        #next {
             figure {
                 &:hover {
                     // Image rotation
