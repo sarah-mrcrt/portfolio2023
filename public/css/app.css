@@ -676,6 +676,54 @@ footer#contact div article p {
   }
 }
 
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 14.1666666667%;
+}
+
+.col-3 {
+  width: 22.75%;
+}
+
+.col-4 {
+  width: 31.3333333333%;
+}
+
+.col-5 {
+  width: 39.9166666667%;
+}
+
+.col-6 {
+  width: 48.5%;
+}
+
+.col-7 {
+  width: 57.0833333333%;
+}
+
+.col-8 {
+  width: 65.6666666667%;
+}
+
+.col-9 {
+  width: 74.25%;
+}
+
+.col-10 {
+  width: 82.8333333333%;
+}
+
+.col-11 {
+  width: 91.4166666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
 a {
   transition: all 0.5s ease-in-out;
 }
@@ -1246,7 +1294,6 @@ main#projet section iframe {
   height: 100vh;
   overflow: hidden;
   width: 100%;
-  background-color: red;
 }
 @media (max-width: 992px) {
   main#projet section iframe {

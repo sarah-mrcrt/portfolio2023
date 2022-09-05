@@ -96,16 +96,18 @@ main#projet {
             height: 100vh;
             overflow: hidden;
             width: 100%;
-            background-color: red;
-             @include responsive("md-desktop") {
+
+            @include responsive("md-desktop") {
                 height: 50vh;
-             }
-              @include responsive("md-tablet") {
+            }
+
+            @include responsive("md-tablet") {
                 height: 40vh;
-             }
-              @include responsive("sm-phone") {
+            }
+
+            @include responsive("sm-phone") {
                 height: 100%;
-             }
+            }
         }
 
         picture {

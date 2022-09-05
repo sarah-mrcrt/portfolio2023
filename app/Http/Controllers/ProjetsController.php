@@ -22,12 +22,11 @@ class ProjetsController extends Controller
     public function show($id){
         // get the current projet
         $projet = Projets::findOrFail($id);
-        // last 2 projets
-        $suggestions = Projets::all()->sortByDesc('id')->take(2);
         // Get Next / Previous Record
         $next = $projet->next();
         $previous = $projet->previous();
         
-        return view("pages.projets.projet", compact("projet", "suggestions", "previous", "next"));
+        return view("pages.projets.projet", compact("projet"    , "previous", "next"));
     }
+    
 }

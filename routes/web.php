@@ -19,8 +19,7 @@ Route::get('/services', function () {
 
 // Projet
 Route::get('/projets', [ProjetsController::class, 'index']);
-Route::get('/projet_{id}', [ProjetsController::class, 'show'])->where('id','[0-9]+');
-
+Route::get('/projets/{id}/{slug}', [ProjetsController::class, 'show'])->where('id','[0-9]+')->name('projets.show');
 
 
 // Pages d'administration
@@ -37,4 +36,4 @@ Route::get('/projet_{id}', [ProjetsController::class, 'show'])->where('id','[0-9
 // Auth::routes();
 
 // redirect All 404 Errors to Homepage
-// Route::any('{query}', function() { return redirect('/'); })->where('query', '.*');
+Route::any('{query}', function() { return redirect('/'); })->where('query', '.*');

@@ -1,5 +1,6 @@
 @extends('layouts.template')
-{{-- @section('title', 'Sarah Mauriaucourt') --}}
+@section('title', 'Accueil')
+@section('description', 'Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.')
 @section('main', 'home')
 
 @section('content')
@@ -61,7 +62,7 @@
         </article>
 
         <article>
-            <a href="projet_Audio_Player.html" class="col-5">
+            <a href="{{url('projets/9/audio_player')}}" class="col-5">
                 <figure>
                     <picture>
                         <source srcset="{{asset('images/projets/2021_audio_player.webp')}}" type="image/webp">
@@ -73,7 +74,7 @@
                     <figcaption>Web</figcaption>
                 </figure>
             </a>
-            <a href="projet_Grilles.html" class="col-5">
+            <a href="{{url('projets/6/grilles')}}" class="col-5">
                 <figure>
                     <picture>
                         <source srcset="{{asset('images/projets/2021_grilles.webp')}}" type="image/webp">
@@ -84,7 +85,7 @@
                     <figcaption>Print</figcaption>
                 </figure>
             </a>
-            <a href="projet_Now.html" class="col-5">
+            <a href="{{url('projets/5/now')}}" class="col-5">
                 <figure>
                     <picture>
                         <source srcset="{{asset('images/projets/2021_now.webp')}}" type="image/webp">

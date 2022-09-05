@@ -1,4 +1,6 @@
 @extends('layouts.template')
+@section('title', 'Services')
+@section('description', 'Vous avez besoin de mes services ? Je vous laisse découvrir mes étapes de travail et je reste bien entendu ouverte à toutes autres méthodes de travail.')
 @section('main', 'services')
 
 @section('content')

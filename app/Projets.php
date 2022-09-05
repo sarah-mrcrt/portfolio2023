@@ -16,4 +16,13 @@ class Projets extends Model
     public function previous() {
         return $this->where("id", "<", $this->id)->max('id');
     }
+
+
+    public function getNextAttribute(){
+        return static::where('id', '>', $this->id)->orderBy('id','asc')->first();
+    }
+
+    public function getPreviousAttribute(){
+        return static::where('id', '<', $this->id)->orderBy('id','desc')->first();
+    }
 }

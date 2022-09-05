@@ -1,4 +1,6 @@
 @extends('layouts.template')
+@section('title', 'Bienvenue sur l\'un de mes projets.')
+@section('description', 'Bienvenue sur l\'un de mes projets.')
 @section('main', 'projet')
 
 @section('content')
@@ -6,8 +8,7 @@
     <header id="projets-titre">
         <h2 class="h3">{{$projet->titre}}</h2>
         <ul class="tags">
-            <li>Print</li>
-            <li>Affiche</li>
+            <li>{{$projet->tags}}</li>
             <li>{{$projet->date}}</li>
         </ul>
     </header>
@@ -16,24 +17,30 @@
         <div id="projet-info-expertise">
             <h3>Expertises</h3>
             <ul>
-                <li>Design Graphique</li>
-                <li>Mise en page</li>
+                <li>{{$projet->expertises}}</li>
             </ul>
         </div>
+
         <div id="projet-info-logiciels">
             <h3>Logiciels</h3>
             <ul>
-                <li>Illustrator</li>
+                <li>{{$projet->logiciels}}</li>
             </ul>
         </div>
+
+        @if($projet->mission != 'NULL')
         <div id="projet-info-missions">
             <h3>Missions</h3>
             <p>{{$projet->mission}}</p>
         </div>
+        @endif
+
+        @if($projet->demarche != 'NULL')
         <div id="projet-info-demarches">
             <h3>Démarches</h3>
             <p>{{$projet->demarche}}</p>
         </div>
+        @endif
     </article>
 
     @if($projet->video != 'NULL')
@@ -63,19 +70,25 @@
             <img src="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
                 alt="{{$projet->titre}}">
         </picture>
+
+        @if($projet->decouvrir != 'NULL')
+        <a href="{{URL::to($projet->decouvrir)}}" class="btn" rel="noopener" target="_blank">Découvrir</a>
+        @endif
 </section>
 
 <nav id="pagination" class="h3">
     @if($next > 0)
-    <a href="{{ URL::to( 'projets/' . $next ) }}">
+    <a href="{{ URL::to( 'projets/' . $next .'/'. $projet->next->url) }}">
         <figure id="next">
             <picture>
-                <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.webp' !!}"
+                <source
+                    srcset="{{ URL::to( 'images/projets/' . $projet->next->date .'_'. $projet->next->url .'.webp') }}"
                     type="image/webp">
-                <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
+                <source
+                    srcset="{{ URL::to( 'images/projets/' . $projet->next->date .'_'. $projet->next->url .'.jpg') }}"
                     type="image/jpg">
-                <img src="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
-                    alt="{{$projet->titre}}">
+                <img src="{{ URL::to( 'images/projets/' . $projet->next->date .'_'. $projet->next->url .'.jpg') }}"
+                    alt="{{$projet->next->titre}}">
             </picture>
             <figcaption>Suivant</figcaption>
         </figure>
@@ -83,15 +96,17 @@
     @endif
 
     @if($previous > 0)
-    <a href="{{ URL::to( 'projets/' . $previous ) }}">
+    <a href="{{ URL::to( 'projets/' . $previous .'/'. $projet->previous->url) }}">
         <figure id="previous">
             <picture>
-                <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.webp' !!}"
+                <source
+                    srcset="{{ URL::to( 'images/projets/' . $projet->previous->date .'_'. $projet->previous->url .'.webp') }}"
                     type="image/webp">
-                <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
+                <source
+                    srcset="{{ URL::to( 'images/projets/' . $projet->previous->date .'_'. $projet->previous->url .'.jpg') }}"
                     type="image/jpg">
-                <img src="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
-                    alt="{{$projet->titre}}">
+                <img src="{{ URL::to( 'images/projets/' . $projet->previous->date .'_'. $projet->previous->url .'.jpg') }}"
+                    alt="{{$projet->previous->titre}}">
             </picture>
             <figcaption>Précédent</figcaption>
         </figure>

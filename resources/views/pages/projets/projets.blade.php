@@ -1,4 +1,6 @@
 @extends('layouts.template')
+@section('title', 'Projets')
+@section('description', 'PDécouvrez une sélection de mes meilleurs projets !')
 @section('main', 'projets')
 
 @section('content')
@@ -28,7 +30,7 @@
 <section class="col-10 portfolio-gallery article-bordered">
     @foreach ($projets as $projet)
 
-    <a href="projet_{{$projet->id}}" class="item" data-id="{{$projet->tags}}">
+    <a href="{{route("projets.show", [$projet->id, $projet->url])}}" class="item" data-id="{{$projet->tags}}">
         <header>
             <h2>{{$projet->titre}}</h2>
             <ul class="tags">

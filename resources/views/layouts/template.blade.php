@@ -27,16 +27,16 @@
 
         <!-- -------  Open Graph Meta Tags ------- -->
         <!-- HTML Meta Tags -->
-        <title>Accueil | Sarah Mauriaucourt | Portfolio</title>
+        <title>@yield('title') | Sarah Mauriaucourt | Portfolio</title>
         <meta name="description"
-            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+            content="@yield("description")">
         <meta name="author" content="Sarah Mauriaucourt">
         <!-- Facebook Meta Tags -->
-        <meta property="og:title" content="Accueil | Sarah Mauriaucourt | Portfolio">
+        <meta property="og:title" content="@yield('title') | Sarah Mauriaucourt | Portfolio">
         <meta property="og:site_name" content="Sarah Mauriaucourt | Portfolio">
         <meta property="og:url" content="https://sarahmauriaucourt.fr">
         <meta property="og:description"
-            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+            content="@yield("description")">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="fr_FR">
         <meta property="og:image" content="{{ asset('images/Miniature_Open_Graph.jpg')}}">
@@ -47,9 +47,9 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta property="twitter:domain" content="sarahmauriaucourt.fr">
         <meta property="twitter:url" content="https://sarahmauriaucourt.fr/">
-        <meta name="twitter:title" content="Accueil | Sarah Mauriaucourt | Portfolio">
+        <meta name="twitter:title" content="@yield('title') | Sarah Mauriaucourt | Portfolio">
         <meta name="twitter:description"
-            content="Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.">
+            content="@yield("description")">
         <meta name="twitter:image" content="{{ asset('images/Miniature_Open_Graph.jpg')}}">
 
         <!-- -------  Favicon ------- -->
@@ -214,7 +214,7 @@
         </footer>
 
         <!-- Scripts -->
-        {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> --}}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="{{ asset('js/script.js')}}"></script>
