@@ -68,9 +68,9 @@ réalisations en web, communication visuelle et audiovisuelle.')
             <a href="{{url('projets/9/audio-player')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021-audio-player.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021-audio-player.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021-audio-player.jpg')}}"
+                        <source srcset="{{asset('images/projets/2021-Audio-player.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2021-Audio-player.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2021-Audio-player.jpg')}}"
                             alt="Audio Player est un projet Web">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
@@ -80,9 +80,9 @@ réalisations en web, communication visuelle et audiovisuelle.')
             <a href="{{url('projets/6/grilles')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021-grilles.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021-grilles.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021-grilles.jpg')}}" alt="Grilles est un projet Print">
+                        <source srcset="{{asset('images/projets/2021-Grilles.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2021-Grilles.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2021-Grilles.jpg')}}" alt="Grilles est un projet Print">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
                     <figcaption>Print</figcaption>
