@@ -15,7 +15,7 @@ class ProjetsController extends Controller
     public function index(){
         $projets = Projets::all()->sortByDesc('id');
         
-        return view("pages.projets.projets", compact("projets"));
+        return view("pages.projets.index", compact("projets"));
     }
     
     // afficher un projet particulier
@@ -26,7 +26,7 @@ class ProjetsController extends Controller
         $next = $projet->next();
         $previous = $projet->previous();
         
-        return view("pages.projets.projet", compact("projet"    , "previous", "next"));
+        return view("pages.projets.show", compact("projet", "previous", "next"));
     }
     
 }

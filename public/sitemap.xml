@@ -1,108 +1,113 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://sarahmauriaucourt.fr/</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/services</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/images/Sarah_Mauriaucourt_CV.pdf</loc>
-  <lastmod>2022-09-05T18:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/9/audio_player</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/6/grilles</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/5/now</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/15/serres_royales_laeken</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/14/widmer</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/13/climat</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/12/up_event</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/11/carte_interactive</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/10/asian_recipe</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/8/splash_screen_watermelon</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/7/persona</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/4/lockbook</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/3/mouud</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/2/chella_man</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sarahmauriaucourt.fr/projets/1/abecedaire</loc>
-  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+	<loc>http://127.0.0.1:8000</loc>
+		<priority>1.0</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets</loc>
+		<priority>0.8</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/services</loc>
+		<priority>0.8</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/1/Abecedaire</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/2/Chella-man</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/3/mouud</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/4/Lockbook</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/5/now</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/6/Grilles</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/7/Persona</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/8/Splash-screen-pasteque</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/9/Audio-player</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/10/Recette-de-cuisine-asiatique</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/11/Carte-interactive</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/12/Up-event</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/13/Climat</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/14/Affiche-CCI-Widmer</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/15/Serres-Royales-de-Laeken</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-07T13:46:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
 </urlset>
+

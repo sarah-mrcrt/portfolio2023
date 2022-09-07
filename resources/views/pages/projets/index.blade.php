@@ -37,6 +37,9 @@
             <h2>{{$projet->titre}}</h2>
             <ul class="tags">
                 <li>{{$projet->tags}}</li>
+                @if($projet->expertises != 'NULL')
+                <li>{{$projet->expertises}}</li>
+                @endif
             </ul>
         </header>
         <span class="btn">Voir plus</span>

@@ -11,7 +11,8 @@
         "htmlmin/htmlmin": "^8.0",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "laravelium/sitemap": "^8.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
