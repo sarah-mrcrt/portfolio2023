@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -9,88 +10,98 @@
 
 <url>
   <loc>https://sarahmauriaucourt.fr/</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/images/MAURIAUCOURT_SARAH-CV.pdf</loc>
-  <lastmod>2022-01-15T10:10:06+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/services</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_15</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/projets</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_14</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/images/Sarah_Mauriaucourt_CV.pdf</loc>
+  <lastmod>2022-09-05T18:23:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_13</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/projets/9/audio_player</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_12</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/projets/6/grilles</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_11</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
+  <loc>https://sarahmauriaucourt.fr/projets/5/now</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_10</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/15/serres_royales_laeken</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_9</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/14/widmer</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_8</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/13/climat</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_7</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/12/up_event</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_6</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/11/carte_interactive</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_5</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/10/asian_recipe</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_4</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/8/splash_screen_watermelon</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_3</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/7/persona</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_2</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/4/lockbook</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://sarahmauriaucourt.fr/projet_1</loc>
-  <lastmod>2022-01-15T10:58:44+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sarahmauriaucourt.fr/projets/3/mouud</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sarahmauriaucourt.fr/projets/2/chella_man</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sarahmauriaucourt.fr/projets/1/abecedaire</loc>
+  <lastmod>2022-09-07T09:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
