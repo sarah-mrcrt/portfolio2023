@@ -4,7 +4,7 @@
 {{$projet->titre}}
 @endsection
 @section('meta_description')
-Découvrez {{$projet->titre}}, un projet réalisé en {{$projet->date}}.
+Découvrez {{$projet->titre}}.
 @endsection
 {{-- Main id --}}
 @section('main', 'projet')
@@ -63,7 +63,7 @@ Découvrez {{$projet->titre}}, un projet réalisé en {{$projet->date}}.
             <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'_'. $i .'.jpg' !!}"
                 type="image/jpg">
             <img src="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'_'. $i .'.jpg' !!}"
-                alt="{{$projet->titre}}">
+                alt="{{$projet->titre}} {{$i}}">
         </picture>
         @endfor
         @endif

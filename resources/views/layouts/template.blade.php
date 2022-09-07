@@ -29,13 +29,15 @@
         <!-- -------  Open Graph Meta Tags ------- -->
         <!-- HTML Meta Tags -->
         <title>@yield('meta_title') | Sarah Mauriaucourt | Portfolio</title>
-        <meta name="description" content="@yield(" meta_description")">
+        <meta name="description"
+            content="@yield("meta_description")">
         <meta name="author" content="Sarah Mauriaucourt">
         <!-- Facebook Meta Tags -->
         <meta property="og:title" content="@yield('title') | Sarah Mauriaucourt | Portfolio">
         <meta property="og:site_name" content="Sarah Mauriaucourt | Portfolio">
         <meta property="og:url" content="https://sarahmauriaucourt.fr">
-        <meta property="og:description" content="@yield(" description")">
+        <meta property="og:description"
+            content="@yield("description")">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="fr_FR">
         <meta property="og:image" content="{{ asset('images/Miniature_Open_Graph.jpg')}}">
@@ -47,7 +49,8 @@
         <meta property="twitter:domain" content="sarahmauriaucourt.fr">
         <meta property="twitter:url" content="https://sarahmauriaucourt.fr/">
         <meta name="twitter:title" content="@yield('title') | Sarah Mauriaucourt | Portfolio">
-        <meta name="twitter:description" content="@yield(" description")">
+        <meta name="twitter:description"
+            content="@yield("description")">
         <meta name="twitter:image" content="{{ asset('images/Miniature_Open_Graph.jpg')}}">
 
         <!-- -------  Favicon ------- -->
@@ -67,7 +70,7 @@
         <!-- -------  Stylesheet ------- -->
         <link rel="stylesheet" href="{{ asset('css/app.css')}}" />
 
-        <!-- ------- JSON-LD, schema.org (Données structurées) | Person ------- -->
+        <!-- ------- JSON-LD, schema.org | Person ------- -->
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -184,7 +187,7 @@
             <span id="open"><i class="fas fa-bars"></i></span>
         </header>
 
-        <main id="@yield(" main")">
+        <main id="@yield("main")">
             @yield('content')
         </main>
 
@@ -215,5 +218,4 @@
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js')}}"></script>
     </body>
-
 </html>
