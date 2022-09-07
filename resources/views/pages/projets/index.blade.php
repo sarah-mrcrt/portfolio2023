@@ -44,11 +44,11 @@
         </header>
         <span class="btn">Voir plus</span>
         <picture>
-            <source srcset="{!!asset('images/projets').'/'. $projet->date .'_'. $projet->url .'.webp' !!}"
+            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.webp' !!}"
                 type="image/webp">
-            <source srcset="{!!asset('images/projets').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
+            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.jpg' !!}"
                 type="image/jpg">
-            <img src="{!!asset('images/projets').'/'. $projet->date .'_'. $projet->url .'.jpg' !!}"
+            <img src="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.jpg' !!}"
                 alt="{{$projet->titre}}">
         </picture>
     </a>
