@@ -20,9 +20,9 @@ réalisations en web, communication visuelle et audiovisuelle.')
         </ul>
     </article>
     <picture class="col-6">
-        <source srcset="{{asset('images/Sarah_Mauriaucourt.webp')}}" type="image/webp">
-        <source srcset="{{asset('images/Sarah_Mauriaucourt.png')}}" type="image/png">
-        <img src="{{asset('images/Sarah_Mauriaucourt.png')}}" alt="Photo de la tête de Sarah Mauriaucourt">
+        <source srcset="{{asset('images/Sarah-Mauriaucourt.webp')}}" type="image/webp">
+        <source srcset="{{asset('images/Sarah-Mauriaucourt.png')}}" type="image/png">
+        <img src="{{asset('images/Sarah-Mauriaucourt.png')}}" alt="Photo de la tête de Sarah Mauriaucourt">
     </picture>
 </section>
 
@@ -35,7 +35,7 @@ réalisations en web, communication visuelle et audiovisuelle.')
             de 3 mois dans la conception et le développement web. J'aime me renouveler en explorant de
             nouvelles techniques, de nouveaux styles, de nouvelles pistes. Retrouvez sur ce portfolio mes
             travaux !</p>
-        <a href="{{asset('images/Sarah_Mauriaucourt_CV.pdf')}}" class="btn" target="_blank">CV Print</a>
+        <a href="{{asset('images/Sarah-Mauriaucourt-CV.pdf')}}" class="btn" target="-blank">CV Print</a>
     </article>
 </section>
 
@@ -65,12 +65,12 @@ réalisations en web, communication visuelle et audiovisuelle.')
         </article>
 
         <article>
-            <a href="{{url('projets/9/audio_player')}}" class="col-5">
+            <a href="{{url('projets/9/audio-player')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021_audio_player.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021_audio_player.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021_audio_player.jpg')}}"
+                        <source srcset="{{asset('images/projets/2021-audio-player.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2021-audio-player.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2021-audio-player.jpg')}}"
                             alt="Audio Player est un projet Web">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
@@ -80,9 +80,9 @@ réalisations en web, communication visuelle et audiovisuelle.')
             <a href="{{url('projets/6/grilles')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021_grilles.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021_grilles.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021_grilles.jpg')}}" alt="Grilles est un projet Print">
+                        <source srcset="{{asset('images/projets/2021-grilles.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2021-grilles.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2021-grilles.jpg')}}" alt="Grilles est un projet Print">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
                     <figcaption>Print</figcaption>
@@ -91,9 +91,9 @@ réalisations en web, communication visuelle et audiovisuelle.')
             <a href="{{url('projets/5/now')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021_now.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021_now.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021_now.jpg')}}" alt="Now est un projet Audiovisuel">
+                        <source srcset="{{asset('images/projets/2021-now.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2021-now.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2021-now.jpg')}}" alt="Now est un projet Audiovisuel">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
                     <figcaption>Audiovisuel</figcaption>
