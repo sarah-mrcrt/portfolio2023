@@ -1,10 +1,14 @@
 @extends('layouts.template')
-@section('title', 'Accueil')
-@section('description', 'Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes réalisations en web, communication visuelle et audiovisuelle.')
+{{-- Meta --}}
+@section('meta_title', 'Accueil')
+@section('meta_description', 'Portfolio de Sarah Mauriaucourt, étudiante dans le domaine du design numérique. Découvrez mes
+réalisations en web, communication visuelle et audiovisuelle.')
+{{-- Main id --}}
 @section('main', 'home')
-
+{{-- Main content --}}
 @section('content')
-<!-- ACCUEIL -->
+
+<!-- ------- Accueil ------- -->
 <section id="accueil">
     <article class="col-6">
         <h3>Hey, je suis Sarah Mauriaucourt</h3>
@@ -56,8 +60,7 @@
             <p>Vous n'avez pas le temps de découvrir l'ensemble de mes projets ? Pas de soucis, je vous ai
                 fait
                 une courte sélection en choisissant un projet dans chaque domaine où j'évolue. Sois le
-                <a class="link">Web</a>, le <a class="link">Print</a> et l'<a
-                    class="link">Audiovisuel</a> !</p>
+                <a class="link">Web</a>, le <a class="link">Print</a> et l'<a class="link">Audiovisuel</a> !</p>
             <a href="{{ url('/projets') }}" class="btn">Projets</a>
         </article>
 

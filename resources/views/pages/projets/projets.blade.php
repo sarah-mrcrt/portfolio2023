@@ -1,8 +1,10 @@
 @extends('layouts.template')
-@section('title', 'Projets')
-@section('description', 'PDécouvrez une sélection de mes meilleurs projets !')
+{{-- Meta --}}
+@section('meta_title', 'Projets')
+@section('meta_description', 'Découvrez une sélection de mes meilleurs projets !')
+{{-- Main id --}}
 @section('main', 'projets')
-
+{{-- Main content --}}
 @section('content')
 <header class="entete-pages">
     <div class="col-4">

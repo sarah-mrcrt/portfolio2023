@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.pdf$
+Disallow: /images/
+Allow: /
+
+Sitemap: http://www.sarahmauriaucourt.fr/sitemap.xml

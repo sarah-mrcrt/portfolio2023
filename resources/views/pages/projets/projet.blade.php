@@ -1,8 +1,14 @@
 @extends('layouts.template')
-@section('title', 'Bienvenue sur l\'un de mes projets.')
-@section('description', 'Bienvenue sur l\'un de mes projets.')
+{{-- Meta --}}
+@section('meta_title')
+{{$projet->titre}}
+@endsection
+@section('meta_description')
+Découvrez {{$projet->titre}}, un projet réalisé en {{$projet->date}}.
+@endsection
+{{-- Main id --}}
 @section('main', 'projet')
-
+{{-- Main content --}}
 @section('content')
 <section>
     <header id="projets-titre">
@@ -57,7 +63,7 @@
             <source srcset="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'_'. $i .'.jpg' !!}"
                 type="image/jpg">
             <img src="{!!asset('images/projets/').'/'. $projet->date .'_'. $projet->url .'_'. $i .'.jpg' !!}"
-                alt="{{$projet->titre}} {{$i}}">
+                alt="{{$projet->titre}}">
         </picture>
         @endfor
         @endif
