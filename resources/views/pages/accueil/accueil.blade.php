@@ -65,7 +65,7 @@ réalisations en web, communication visuelle et audiovisuelle.')
         </article>
 
         <article>
-            <a href="{{url('projets/9/audio-player')}}" class="col-5">
+            <a href="{{url('projets/9/Audio-player')}}" class="col-5">
                 <figure>
                     <picture>
                         <source srcset="{{asset('images/projets/2021-Audio-player.webp')}}" type="image/webp">
@@ -77,7 +77,7 @@ réalisations en web, communication visuelle et audiovisuelle.')
                     <figcaption>Web</figcaption>
                 </figure>
             </a>
-            <a href="{{url('projets/6/grilles')}}" class="col-5">
+            <a href="{{url('projets/6/Grilles')}}" class="col-5">
                 <figure>
                     <picture>
                         <source srcset="{{asset('images/projets/2021-Grilles.webp')}}" type="image/webp">

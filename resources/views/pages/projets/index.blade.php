@@ -32,7 +32,7 @@
 <section class="col-10 portfolio-gallery article-bordered">
     @foreach ($projets as $projet)
 
-    <a href="{{route("projets.show", [$projet->id, $projet->url])}}" class="item" data-id="{{$projet->tags}}">
+    <a href="{{route("projets.show", [$projet->id, $projet->slug])}}" class="item" data-id="{{$projet->tags}}">
         <header>
             <h2>{{$projet->titre}}</h2>
             <ul class="tags">
@@ -44,11 +44,11 @@
         </header>
         <span class="btn">Voir plus</span>
         <picture>
-            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.webp' !!}"
+            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->slug .'.webp' !!}"
                 type="image/webp">
-            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.jpg' !!}"
+            <source srcset="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->slug .'.jpg' !!}"
                 type="image/jpg">
-            <img src="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->url .'.jpg' !!}"
+            <img src="{!!asset('images/projets').'/'. $projet->date .'-'. $projet->slug .'.jpg' !!}"
                 alt="{{$projet->titre}}">
         </picture>
     </a>
