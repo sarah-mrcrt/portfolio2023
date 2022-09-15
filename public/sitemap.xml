@@ -4,109 +4,121 @@
 	<url>
 	<loc>http://127.0.0.1:8000</loc>
 		<priority>1.0</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets</loc>
 		<priority>0.8</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/services</loc>
 		<priority>0.8</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/1/Abecedaire</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/2/Chella-man</loc>
+	<loc>http://127.0.0.1:8000/projets/2/Chella-Man</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/3/Mouud</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/4/Lockbook</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/5/now</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/6/Grilles</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/7/Persona</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/8/Splash-screen-pasteque</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/9/Audio-player</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/10/Recette-de-cuisine-asiatique</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/11/Carte-interactive</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/12/Up-event</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/13/Climat</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/14/Affiche-CCI-Widmer</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 	<loc>http://127.0.0.1:8000/projets/15/Serres-Royales-de-Laeken</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-07T14:00:17+00:00</lastmod>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/16/PRISM</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/projets/17/Mergazine</loc>
+		<priority>0.7</priority>
+		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 </urlset>

@@ -54,7 +54,7 @@ Route::get('genrate-sitemap', function(){
     // add every post to the sitemap
     foreach ($projets as $projet)
     {
-        $sitemap->add(URL::to('projets/'.$projet->id.'/'.$projet->url), now(), '0.7', 'monthly');
+        $sitemap->add(URL::to('projets/'.$projet->id.'/'.$projet->slug), now(), '0.7', 'monthly');
     }
 
     // generate your sitemap (format, filename)

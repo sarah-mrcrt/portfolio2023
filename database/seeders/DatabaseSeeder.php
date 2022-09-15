@@ -33,8 +33,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table('projets')->insert([
-            'titre' => "Chella man",
-            'slug' => "Chella-man",
+            'titre' => "Chella Man",
+            'slug' => "Chella-Man",
             'nbr_image' => "4",
             "date" => '2018',
             'tags' => 'Print',
@@ -61,7 +61,7 @@ class DatabaseSeeder extends Seeder
 
         DB::table('projets')->insert([
             'titre' => "Lockbook",
-            'slug' => "lockbook",
+            'slug' => "Lockbook",
             "date" => '2020',
             'tags' => 'Print',
             'logiciels' => 'Indesign, Lightroom,Lumix GX9',
