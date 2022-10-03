@@ -2,123 +2,123 @@
 <?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
-	<loc>http://127.0.0.1:8000</loc>
+	<loc>https://www.sarahmauriaucourt.fr</loc>
 		<priority>1.0</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets</loc>
 		<priority>0.8</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/services</loc>
+	<loc>https://www.sarahmauriaucourt.fr/services</loc>
 		<priority>0.8</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/1/Abecedaire</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/1/Abecedaire</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/2/Chella-Man</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/2/Chella-Man</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/3/Mouud</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/3/Mouud</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/4/Lockbook</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/4/Lockbook</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/5/now</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/5/now</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/6/Grilles</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/6/Grilles</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/7/Persona</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/7/Persona</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/8/Splash-screen-pasteque</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/8/Splash-screen-pasteque</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/9/Audio-player</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/9/Audio-player</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/10/Recette-de-cuisine-asiatique</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/10/Recette-de-cuisine-asiatique</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/11/Carte-interactive</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/11/Carte-interactive</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/12/Up-event</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/12/Up-event</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/13/Climat</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/13/Climat</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/14/Affiche-CCI-Widmer</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/14/Affiche-CCI-Widmer</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/15/Serres-Royales-de-Laeken</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/15/Serres-Royales-de-Laeken</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/16/PRISM</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/16/PRISM</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projets/17/Mergazine</loc>
+	<loc>https://www.sarahmauriaucourt.fr/projets/17/Mergazine</loc>
 		<priority>0.7</priority>
-		<lastmod>2022-09-15T07:34:36+00:00</lastmod>
+		<lastmod>2022-10-03T08:18:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 </urlset>

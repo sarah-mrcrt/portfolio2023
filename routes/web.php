@@ -44,9 +44,9 @@ Route::get('genrate-sitemap', function(){
     $sitemap = App::make("sitemap");
 
     // add items to the sitemap (url, date, priority, freq)
-    $sitemap->add(url('/'), now(), '1.0', 'weekly');
-    $sitemap->add(URL::to('/projets'), now(), '0.8', 'monthly');
-    $sitemap->add(URL::to('/services'), now(), '0.8', 'monthly');
+    $sitemap->add(url('https://www.sarahmauriaucourt.fr'), now(), '1.0', 'weekly');
+    $sitemap->add(URL::to('https://www.sarahmauriaucourt.fr/projets'), now(), '0.8', 'monthly');
+    $sitemap->add(URL::to('https://www.sarahmauriaucourt.fr/services'), now(), '0.8', 'monthly');
 
     // get all posts from db
     $projets = Projet::all();
@@ -54,7 +54,7 @@ Route::get('genrate-sitemap', function(){
     // add every post to the sitemap
     foreach ($projets as $projet)
     {
-        $sitemap->add(URL::to('projets/'.$projet->id.'/'.$projet->slug), now(), '0.7', 'monthly');
+        $sitemap->add(URL::to('https://www.sarahmauriaucourt.fr/projets/'.$projet->id.'/'.$projet->slug), now(), '0.7', 'monthly');
     }
 
     // generate your sitemap (format, filename)
