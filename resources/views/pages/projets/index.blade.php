@@ -11,13 +11,9 @@
         <h2>Projets</h2>
         <h3>Formons une alliance</h3>
     </div>
-    <p class="col-7">Mon avenir a toujours été source d’interrogation. Plus jeune, je n’avais pas de passion
-        particulière
-        et l’art m’était indifférent… comique, car aujourd’hui <strong>l’art numérique</strong> est
-        devenu
-        l'une de mes passions. Si vous aussi vous avez besoin de vous <strong>épanouir</strong> et vous
-        <strong>amuser</strong> dans votre travail, alors voyons ensemble, <strong>comment je peux vous
-            aider !</strong></p>
+    <p class="col-7">
+        Je peux participer aux différentes phases d’un projet. Pour vous donner une vague idée des domaines où j’évolue, voici une énumération : design thinking, identité visuelle, papeterie, photographie, webdesign, développement web, SEO, etc.
+    </p>
 </header>
 
 <aside class="filter-buttons col-2">

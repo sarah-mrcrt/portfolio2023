@@ -14,8 +14,8 @@ réalisations en web, communication visuelle et audiovisuelle.')
         <h3>Hey, je suis Sarah Mauriaucourt</h3>
         <ul>
             <li>designer graphique</li>
-            <li>web & ui designer</li>
-            <li>front & back end developper</li>
+            <li>ux & ui designer</li>
+            <li>front end developper</li>
             <li>cadreuse & monteuse</li>
         </ul>
     </article>
@@ -32,7 +32,7 @@ réalisations en web, communication visuelle et audiovisuelle.')
     <article>
         <h3>Je design et développe des trucs.</h3>
         <p>Créatrice polyvalente dans le monde du numérique, je suis actuellement à la recherche d'un stage
-            de 3 mois dans la conception et le développement web. J'aime me renouveler en explorant de
+            de 4 à 6 mois en design graphique et/ou design d'interface. J'aime me renouveler en explorant de
             nouvelles techniques, de nouveaux styles, de nouvelles pistes. Retrouvez sur ce portfolio mes
             travaux !</p>
         <a href="{{asset('images/Sarah-Mauriaucourt-CV.pdf')}}" class="btn" target="-blank">CV Print</a>
@@ -48,7 +48,7 @@ réalisations en web, communication visuelle et audiovisuelle.')
             être fière de ce que je fais. Et dans un processus de <strong>réfléxion</strong>,
             <strong>créations</strong>, <strong>développement</strong> et
             <strong>d'itérations</strong>, je m'assure d'y arriver.</p>
-        <a href="{{ url('/services') }}" class="btn">Services</a>
+        {{-- <a href="{{ url('/services') }}" class="btn">Services</a> --}}
     </article>
 </section>
 
@@ -88,12 +88,12 @@ réalisations en web, communication visuelle et audiovisuelle.')
                     <figcaption>Print</figcaption>
                 </figure>
             </a>
-            <a href="{{url('projets/5/now')}}" class="col-5">
+            <a href="{{url('projets/17/Mergazine')}}" class="col-5">
                 <figure>
                     <picture>
-                        <source srcset="{{asset('images/projets/2021-now.webp')}}" type="image/webp">
-                        <source srcset="{{asset('images/projets/2021-now.jpg')}}" type="image/jpg">
-                        <img src="{{asset('images/projets/2021-now.jpg')}}" alt="Now est un projet Audiovisuel">
+                        <source srcset="{{asset('images/projets/2022-Mergazine.webp')}}" type="image/webp">
+                        <source srcset="{{asset('images/projets/2022-Mergazine.jpg')}}" type="image/jpg">
+                        <img src="{{asset('images/projets/2022-Mergazine.jpg')}}" alt="Mergazine est un projet Audiovisuel">
                     </picture>
                     <img class="arrow" src="{{asset('images/fleche.svg')}}" alt="Symbole d'une flèche">
                     <figcaption>Audiovisuel</figcaption>

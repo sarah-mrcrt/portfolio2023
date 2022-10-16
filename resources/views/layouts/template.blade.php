@@ -163,7 +163,7 @@
             <nav class="col-7 navigation-link">
                 <ul>
                     <li><a href="{{ url('/') }}">Accueil</a></li>
-                    <li><a href="{{ url('/services') }}">Services</a></li>
+                    {{-- <li><a href="{{ url('/services') }}">Services</a></li> --}}
                     <li><a href="{{ url('/projets') }}">Projets</a></li>
                     <li><a href="{{ url('#contact') }}">Contact</a></li>
                 </ul>
